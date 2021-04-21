@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="EF6MVCCore@localhost">
+  <database-model serializer="dbm" dbms="MSSQL" family-id="MSSQL" format-version="4.19">
+    <root id="1">
+      <ServerVersion>15.0.2000</ServerVersion>
+    </root>
+    <database id="2" parent="1" name="AdventureWorks2019">
+      <ObjectId>6</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="3" parent="1" name="BikeStores">
+      <ObjectId>7</ObjectId>
+      <Collation>Danish_Norwegian_CI_AS</Collation>
+    </database>
+    <database id="4" parent="1" name="EF6MVCCore">
+      <ObjectId>9</ObjectId>
+      <Current>1</Current>
+      <Collation>Danish_Norwegian_CI_AS</Collation>
+      <Fingerprint>9.44299/2A8CA544-A0F7-4FEB-9A3E-E925A9AF6A7E@WINDOWS-1RFPJFO\SQLEXPRESS</Fingerprint>
+    </database>
+    <database id="5" parent="1" name="SchoolContext6">
+      <ObjectId>10</ObjectId>
+      <Collation>Danish_Norwegian_CI_AS</Collation>
+    </database>
+    <database id="6" parent="1" name="db1">
+      <ObjectId>5</ObjectId>
+      <Collation>Danish_Norwegian_CI_AS</Collation>
+    </database>
+    <database id="7" parent="1" name="hospital">
+      <ObjectId>8</ObjectId>
+      <Collation>Danish_Norwegian_CI_AS</Collation>
+    </database>
+    <database id="8" parent="1" name="master">
+      <ObjectId>1</ObjectId>
+      <Collation>Danish_Norwegian_CI_AS</Collation>
+    </database>
+    <database id="9" parent="1" name="model">
+      <ObjectId>3</ObjectId>
+      <Collation>Danish_Norwegian_CI_AS</Collation>
+    </database>
+    <database id="10" parent="1" name="msdb">
+      <ObjectId>4</ObjectId>
+      <Collation>Danish_Norwegian_CI_AS</Collation>
+    </database>
+    <database id="11" parent="1" name="tempdb">
+      <ObjectId>2</ObjectId>
+      <Collation>Danish_Norwegian_CI_AS</Collation>
+    </database>
+    <schema id="12" parent="4" name="INFORMATION_SCHEMA">
+      <ObjectId>3</ObjectId>
+    </schema>
+    <schema id="13" parent="4" name="db_accessadmin">
+      <ObjectId>16385</ObjectId>
+    </schema>
+    <schema id="14" parent="4" name="db_backupoperator">
+      <ObjectId>16389</ObjectId>
+    </schema>
+    <schema id="15" parent="4" name="db_datareader">
+      <ObjectId>16390</ObjectId>
+    </schema>
+    <schema id="16" parent="4" name="db_datawriter">
+      <ObjectId>16391</ObjectId>
+    </schema>
+    <schema id="17" parent="4" name="db_ddladmin">
+      <ObjectId>16387</ObjectId>
+    </schema>
+    <schema id="18" parent="4" name="db_denydatareader">
+      <ObjectId>16392</ObjectId>
+    </schema>
+    <schema id="19" parent="4" name="db_denydatawriter">
+      <ObjectId>16393</ObjectId>
+    </schema>
+    <schema id="20" parent="4" name="db_owner">
+      <ObjectId>16384</ObjectId>
+    </schema>
+    <schema id="21" parent="4" name="db_securityadmin">
+      <ObjectId>16386</ObjectId>
+    </schema>
+    <schema id="22" parent="4" name="dbo">
+      <ObjectId>1</ObjectId>
+      <IntrospectionTimestamp>2021-04-21.14:28:09.070</IntrospectionTimestamp>
+      <Current>1</Current>
+    </schema>
+    <schema id="23" parent="4" name="guest">
+      <ObjectId>2</ObjectId>
+    </schema>
+    <schema id="24" parent="4" name="sys">
+      <ObjectId>4</ObjectId>
+    </schema>
+    <table id="25" parent="22" name="Course">
+      <ObjectId>885578193</ObjectId>
+      <CreatedTimestamp>2021-04-15.01:21:48.683</CreatedTimestamp>
+      <ModifiedTimestamp>2021-04-15.01:21:48.700</ModifiedTimestamp>
+    </table>
+    <table id="26" parent="22" name="Enrollment">
+      <ObjectId>917578307</ObjectId>
+      <CreatedTimestamp>2021-04-15.01:21:48.690</CreatedTimestamp>
+      <ModifiedTimestamp>2021-04-15.01:21:48.703</ModifiedTimestamp>
+    </table>
+    <table id="27" parent="22" name="Student">
+      <ObjectId>949578421</ObjectId>
+      <CreatedTimestamp>2021-04-15.01:21:48.693</CreatedTimestamp>
+      <ModifiedTimestamp>2021-04-15.01:21:48.703</ModifiedTimestamp>
+    </table>
+    <table id="28" parent="22" name="__MigrationHistory">
+      <ObjectId>1013578649</ObjectId>
+      <CreatedTimestamp>2021-04-15.01:21:48.703</CreatedTimestamp>
+      <ModifiedTimestamp>2021-04-15.01:21:48.703</ModifiedTimestamp>
+    </table>
+    <column id="29" parent="25" name="CourseID">
+      <Position>1</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="30" parent="25" name="Title">
+      <Position>2</Position>
+      <DataType>nvarchar(max)|0s</DataType>
+    </column>
+    <column id="31" parent="25" name="Credits">
+      <Position>3</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="32" parent="25" name="PK_dbo.Course">
+      <Position>1</Position>
+      <ColNames>CourseID</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="33" parent="25" name="PK_dbo.Course">
+      <ObjectId>901578250</ObjectId>
+      <CreatedTimestamp>2021-04-15.01:21:48.687</CreatedTimestamp>
+      <ModifiedTimestamp>2021-04-15.01:21:48.687</ModifiedTimestamp>
+      <ColNames>CourseID</ColNames>
+      <UnderlyingIndexName>PK_dbo.Course</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="34" parent="26" name="EnrollmentID">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="35" parent="26" name="CourseID">
+      <Position>2</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="36" parent="26" name="StudentID">
+      <Position>3</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="37" parent="26" name="Grade">
+      <Position>4</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <index id="38" parent="26" name="PK_dbo.Enrollment">
+      <Position>1</Position>
+      <ColNames>EnrollmentID</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <index id="39" parent="26" name="IX_CourseID">
+      <Position>2</Position>
+      <ColNames>CourseID</ColNames>
+    </index>
+    <index id="40" parent="26" name="IX_StudentID">
+      <Position>3</Position>
+      <ColNames>StudentID</ColNames>
+    </index>
+    <key id="41" parent="26" name="PK_dbo.Enrollment">
+      <ObjectId>933578364</ObjectId>
+      <CreatedTimestamp>2021-04-15.01:21:48.690</CreatedTimestamp>
+      <ModifiedTimestamp>2021-04-15.01:21:48.690</ModifiedTimestamp>
+      <ColNames>EnrollmentID</ColNames>
+      <UnderlyingIndexName>PK_dbo.Enrollment</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="42" parent="26" name="FK_dbo.Enrollment_dbo.Course_CourseID">
+      <ObjectId>981578535</ObjectId>
+      <CreatedTimestamp>2021-04-15.01:21:48.700</CreatedTimestamp>
+      <ModifiedTimestamp>2021-04-15.01:21:48.700</ModifiedTimestamp>
+      <ColNames>CourseID</ColNames>
+      <RefTableId>885578193</RefTableId>
+      <RefTableName>Course</RefTableName>
+      <RefKeyName>PK_dbo.Course</RefKeyName>
+      <RefColNames>CourseID</RefColNames>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+    <foreign-key id="43" parent="26" name="FK_dbo.Enrollment_dbo.Student_StudentID">
+      <ObjectId>997578592</ObjectId>
+      <CreatedTimestamp>2021-04-15.01:21:48.703</CreatedTimestamp>
+      <ModifiedTimestamp>2021-04-15.01:21:48.703</ModifiedTimestamp>
+      <ColNames>StudentID</ColNames>
+      <RefTableId>949578421</RefTableId>
+      <RefTableName>Student</RefTableName>
+      <RefKeyName>PK_dbo.Student</RefKeyName>
+      <RefColNames>ID</RefColNames>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+    <column id="44" parent="27" name="ID">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="45" parent="27" name="LastName">
+      <Position>2</Position>
+      <DataType>nvarchar(max)|0s</DataType>
+    </column>
+    <column id="46" parent="27" name="FirstMidName">
+      <Position>3</Position>
+      <DataType>nvarchar(max)|0s</DataType>
+    </column>
+    <column id="47" parent="27" name="EnrollmentDate">
+      <Position>4</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="48" parent="27" name="PK_dbo.Student">
+      <Position>1</Position>
+      <ColNames>ID</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="49" parent="27" name="PK_dbo.Student">
+      <ObjectId>965578478</ObjectId>
+      <CreatedTimestamp>2021-04-15.01:21:48.697</CreatedTimestamp>
+      <ModifiedTimestamp>2021-04-15.01:21:48.697</ModifiedTimestamp>
+      <ColNames>ID</ColNames>
+      <UnderlyingIndexName>PK_dbo.Student</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="50" parent="28" name="MigrationId">
+      <Position>1</Position>
+      <DataType>nvarchar(150 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="51" parent="28" name="ContextKey">
+      <Position>2</Position>
+      <DataType>nvarchar(300 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="52" parent="28" name="Model">
+      <Position>3</Position>
+      <DataType>varbinary(max)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="53" parent="28" name="ProductVersion">
+      <Position>4</Position>
+      <DataType>nvarchar(32 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="54" parent="28" name="PK_dbo.__MigrationHistory">
+      <Position>1</Position>
+      <ColNames>MigrationId
+ContextKey</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="55" parent="28" name="PK_dbo.__MigrationHistory">
+      <ObjectId>1029578706</ObjectId>
+      <CreatedTimestamp>2021-04-15.01:21:48.703</CreatedTimestamp>
+      <ModifiedTimestamp>2021-04-15.01:21:48.703</ModifiedTimestamp>
+      <ColNames>MigrationId
+ContextKey</ColNames>
+      <UnderlyingIndexName>PK_dbo.__MigrationHistory</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>
