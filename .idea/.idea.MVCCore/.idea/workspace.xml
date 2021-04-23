@@ -13,34 +13,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1303173-d1d9-48f5-b7a2-edf9b07b40f5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/MVCCore/Services/StudentsService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MVCCore/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MVCCore/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MVCCore/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MVCCore/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVCCore/Rest Controllers/StudentsRestController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/Rest Controllers/StudentsRestController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp3.1/MVCCore.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp3.1/MVCCore.Views.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp3.1/MVCCore.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp3.1/MVCCore.Views.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp3.1/MVCCore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp3.1/MVCCore.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp3.1/MVCCore.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp3.1/MVCCore.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/MVCCore.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/MVCCore.Views.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/MVCCore.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/MVCCore.Views.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/MVCCore.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/MVCCore.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/MVCCore.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/MVCCore.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/MVCCore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/MVCCore.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/MVCCore.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/MVCCore.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/Razor/Views/Home/Index.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/Razor/Views/Home/Index.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/Razor/Views/Home/Privacy.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/Razor/Views/Home/Privacy.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/Razor/Views/Shared/Error.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/Razor/Views/Shared/Error.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_Layout.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_Layout.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_ValidationScriptsPartial.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_ValidationScriptsPartial.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/Razor/Views/Students/Create.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/Razor/Views/Students/Create.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/Razor/Views/Students/Delete.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/Razor/Views/Students/Delete.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/Razor/Views/Students/Details.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/Razor/Views/Students/Details.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/Razor/Views/Students/Edit.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/Razor/Views/Students/Edit.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/Razor/Views/Students/Index.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/Razor/Views/Students/Index.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/Razor/Views/_ViewImports.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/Razor/Views/_ViewImports.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/Razor/Views/_ViewStart.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/Razor/Views/_ViewStart.cshtml.g.cs" afterDir="false" />
-    </list>
+    <list default="true" id="a1303173-d1d9-48f5-b7a2-edf9b07b40f5" name="Default Changelist" comment="-" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -117,7 +90,7 @@
       <updated>1619000798254</updated>
       <workItem from="1619000801560" duration="4094000" />
       <workItem from="1619005004156" duration="1359000" />
-      <workItem from="1619158516489" duration="3068000" />
+      <workItem from="1619158516489" duration="3471000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1619005230412</created>
@@ -133,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619005439705</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="-">
+      <created>1619161612160</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1619161612160</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,26 +144,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="551" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1619000888927" />
-    <state width="1875" height="216" key="GridCell.Tab.0.bottom" timestamp="1619160896707">
+    <state width="1875" height="216" key="GridCell.Tab.0.bottom" timestamp="1619162001548">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="216" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1619160896707" />
-    <state width="1875" height="216" key="GridCell.Tab.0.center" timestamp="1619160896707">
+    <state width="1875" height="216" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1619162001548" />
+    <state width="1875" height="216" key="GridCell.Tab.0.center" timestamp="1619162001548">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="216" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1619160896707" />
-    <state width="1875" height="216" key="GridCell.Tab.0.left" timestamp="1619160896707">
+    <state width="1875" height="216" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1619162001548" />
+    <state width="1875" height="216" key="GridCell.Tab.0.left" timestamp="1619162001548">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="216" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1619160896707" />
-    <state width="1875" height="216" key="GridCell.Tab.0.right" timestamp="1619160896707">
+    <state width="1875" height="216" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1619162001548" />
+    <state width="1875" height="216" key="GridCell.Tab.0.right" timestamp="1619162001548">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="216" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1619160896707" />
-    <state x="551" y="252" key="Vcs.Push.Dialog.v2" timestamp="1619005503204">
+    <state width="1875" height="216" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1619162001548" />
+    <state x="551" y="252" key="Vcs.Push.Dialog.v2" timestamp="1619161623434">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="551" y="252" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1619005503204" />
+    <state x="551" y="252" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1619161623434" />
     <state x="760" y="425" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1619005255554">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

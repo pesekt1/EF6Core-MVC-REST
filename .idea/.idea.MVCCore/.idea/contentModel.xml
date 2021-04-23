@@ -30,6 +30,16 @@
           <e p="ErrorViewModel.cs" t="Include" />
           <e p="Student.cs" t="Include" />
         </e>
+        <e p="Models2" t="Include">
+          <e p="Course.cs" t="Include" />
+          <e p="CourseAssignment.cs" t="Include" />
+          <e p="Department.cs" t="Include" />
+          <e p="Enrollment.cs" t="Include" />
+          <e p="Instructor.cs" t="Include" />
+          <e p="OfficeAssignment.cs" t="Include" />
+          <e p="SchoolContext6Context.cs" t="Include" />
+          <e p="Student.cs" t="Include" />
+        </e>
         <e p="MVCCore.csproj" t="IncludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
