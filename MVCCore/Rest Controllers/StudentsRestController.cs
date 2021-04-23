@@ -8,61 +8,45 @@ using System.Threading.Tasks;
 using ContosoUniversity;
 using ContosoUniversity.Models;
 using Microsoft.AspNetCore.Mvc;
+using MVCCore.Services;
 
- namespace MVCCore.Rest_Controllers
+namespace MVCCore.Rest_Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
     public class StudentsController : ControllerBase
     {
         private readonly SchoolContext _context;
+        private readonly StudentsService _studentsService;
 
-        public StudentsController(SchoolContext context)
+        public StudentsController(SchoolContext context, StudentsService studentsService)
         {
             _context = context;
+            _studentsService = studentsService;
         }
 
         // GET: api/Students
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Object>>> GetStudents()
         {
-            
-            return await _context
-                .Students
-                .Select(s => new
-                {
-                    s.ID, 
-                    s.FirstMidName, 
-                    s.LastName,
-                    s.EnrollmentDate,
-                    Enrollments = s
-                        .Enrollments
-                        .Select(e => new
-                        {
-                            e.EnrollmentID,
-                            Course = new {e.Course.Title, e.Course.CourseID, e.Course.Credits},
-                            e.Grade
-                        })
-                        .ToList()
-                })
-                .ToListAsync();
+            return await _studentsService.GetStudents();
+        }
+        
+        // GET: api/Students/bad - example of a loop
+        [HttpGet]
+        [Route("bad")]
+        public async Task<ActionResult<IEnumerable<Student>>> GetStudentsBad()
+        {
+            return await _context.Students.ToListAsync();
         }
         
         // GET: api/Students/1
         [HttpGet("{id}")]
         public async Task<ActionResult<Student>> GetStudentById(long id)
         {
-            var student = await _context.Students.FindAsync(id);
-
-            if (student == null)
-            {
-                return NotFound();
-            }
-
-            return student;
+            return await _studentsService.GetStudentById(id);
         }
-
-
+        
         // PUT: api/Students/1
         [HttpPut("{id}")]
         public async Task<IActionResult> UpdateStudent(long id, Student student)
