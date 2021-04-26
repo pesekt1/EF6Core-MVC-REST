@@ -7,15 +7,20 @@
         "DefaultConnection": "Server=localhost\\SQLEXPRESS;Database=EF6MVCCore;Trusted_Connection=True;MultipleActiveResultSets=true"
       }
  ```     
-### MVC architecture ... controllers returning the view - http web page
-```c#
-        // GET: Students
-        public async Task<IActionResult> Index()
-        {
-            return View(await _context.Students.ToListAsync());
-        }
-```
 
+### Scaffolding - generating the mapping classes from existing database
+For generating model classes from the existing database we can use scaffolding:
+Run something like this in your Package Manager Console in Visual Studio:
+
+
+    Scaffold-DbContext "Data Source=localhost\SQLEXPRESS;Initial Catalog=SchoolContext6;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models2
+
+- We need to specify:
+    - data source
+    - database (initial catalog)
+    - output directory
+
+### Database Mapping
 - Models mapping tables
 ```c#
     public class Student
@@ -39,18 +44,6 @@
     }
 ```
 
-### Scaffolding - generating the mapping classes from existing database
-For generating model classes from the existing database we can use scaffolding:
-Run something like this in your Package Manager Console in Visual Studio:
-
-
-    Scaffold-DbContext "Data Source=localhost\SQLEXPRESS;Initial Catalog=SchoolContext6;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models2
-
-- We need to specify:
-    - data source
-    - database (initial catalog)
-    - output directory
-
 ### Migration
 
 - Creating the initial schema structure - in case there is no database:
@@ -70,7 +63,6 @@ Run something like this in your Package Manager Console in Visual Studio:
                 .PrimaryKey(t => t.CourseID);
 //... creation of the other tables
 ```
-
 
 ### Rest Controllers - returning data as json object
 
@@ -115,7 +107,84 @@ Run something like this in your Package Manager Console in Visual Studio:
     }
 ```
 
-### Swagger
-
 ### Startup
 
+- Configure services - like services for REST Controllers, and Swagger API documentation
+```c#
+        public void ConfigureServices(IServiceCollection services)
+        {
+            services.AddControllersWithViews();
+            services.AddScoped<SchoolContext>(_ => 
+                new SchoolContext(Configuration.GetConnectionString("DefaultConnection")));
+            services.AddScoped<CoursesService>();
+            services.AddScoped<StudentsService>();
+
+            // Register the Swagger generator, defining 1 or more Swagger documents
+            services.AddSwaggerGen();
+        }
+```
+
+- Enable Swagger API documentation
+```c#
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        {
+        // some more code...
+
+            // Enable middleware to serve generated Swagger as a JSON endpoint.
+            app.UseSwagger();
+
+            // Enable middleware to serve swagger-ui (HTML, JS, CSS, etc.),
+            // specifying the Swagger JSON endpoint.
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
+            });
+        }
+```
+
+### Swagger (API documentation)
+- Swagger json endpoint: <localhost:5001/swagger/v1/swagger.json>
+- Swagger UI: <localhost:5001/swagger>
+
+![swagger](img/swagger.png)
+
+### Stored procedures - executing from the application
+
+- Service layer:
+    - Executing stored procedure getAllStudentsSp:
+
+```c#
+        public async Task<ActionResult<IEnumerable<Object>>> GetStudentsSP()
+        {
+            var data = _context.Database.SqlQuery<Student>("getAllStudentsSP");
+            return await data.ToListAsync();
+        }
+```
+
+- Rest Controller:
+```c#
+        [HttpGet]
+        [Route("getStudentsSP")]
+        public async Task<ActionResult<IEnumerable<Object>>> GetStudentsSP()
+        {
+            return await _studentsService.GetStudentsSP();
+        }
+```
+
+- Stored procedure with parameter:
+```c#
+        public async Task<ActionResult<IEnumerable<Object>>> GetStudentsByIdSP(int id)
+        {
+            var data = _context.Database.SqlQuery<Student>("exec sp_getStudentById @id", new SqlParameter("id", id));
+            return await data.ToListAsync();
+        }
+```
+
+### MVC architecture ... controllers returning the view - http web page
+```c#
+        // GET: Students
+        public async Task<IActionResult> Index()
+        {
+            return View(await _context.Students.ToListAsync());
+        }
+```

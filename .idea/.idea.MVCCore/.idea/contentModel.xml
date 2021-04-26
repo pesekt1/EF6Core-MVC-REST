@@ -18,6 +18,9 @@
           <e p="SchoolContext.cs" t="Include" />
           <e p="SchoolContextFactory.cs" t="Include" />
         </e>
+        <e p="img" t="Include">
+          <e p="swagger.png" t="Include" />
+        </e>
         <e p="Migrations" t="Include">
           <e p="202008170448151_Initial.cs" t="Include" />
           <e p="202008170448151_Initial.Designer.cs" t="Include" />
