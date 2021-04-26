@@ -13,12 +13,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1303173-d1d9-48f5-b7a2-edf9b07b40f5" name="Default Changelist" comment="scaffolding">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MVCCore/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MVCCore/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVCCore/Rest Controllers/CoursesRestController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/Rest Controllers/CoursesRestController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVCCore/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVCCore/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/readme.md" afterDir="false" />
-    </list>
+    <list default="true" id="a1303173-d1d9-48f5-b7a2-edf9b07b40f5" name="Default Changelist" comment="scaffolding" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,6 +24,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/AD61CA47-F8B7-4CC6-93A0-BA44CC73B5C7/16F/TaskContinuation.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Tomas Pesek/Dropbox/=== KEA ===/My subjects/Databases for developers/Demo apps - GitHub/EF6Core/MVCCore/Rest Controllers/CoursesRestController.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -105,7 +101,7 @@
       <workItem from="1619158516489" duration="3471000" />
       <workItem from="1619167102191" duration="160000" />
       <workItem from="1619436263317" duration="8615000" />
-      <workItem from="1619468355598" duration="1300000" />
+      <workItem from="1619468355598" duration="1356000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1619005230412</created>
@@ -149,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619443112926</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="-">
+      <created>1619469667163</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1619469667163</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -265,10 +268,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="274" height="463" key="HiddenNamespacesPopup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1619437438868" />
-    <state x="551" y="252" key="Vcs.Push.Dialog.v2" timestamp="1619443122534">
+    <state x="551" y="252" key="Vcs.Push.Dialog.v2" timestamp="1619469683419">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="551" y="252" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1619443122534" />
+    <state x="551" y="252" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1619469683419" />
     <state width="968" height="528" key="XDebugger.FullValuePopup" timestamp="1619441930084">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
