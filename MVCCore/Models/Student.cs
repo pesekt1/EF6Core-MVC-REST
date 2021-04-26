@@ -1,10 +1,21 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace ContosoUniversity.Models
+namespace MVCCore.Models
 {
     public class Student
     {
+        public Student()
+        {
+        }
+
+        public Student(string lastName, string firstMidName, DateTime enrollmentDate)
+        {
+            LastName = lastName;
+            FirstMidName = firstMidName;
+            EnrollmentDate = enrollmentDate;
+        }
+
         public int ID { get; set; }
         public string LastName { get; set; }
         public string FirstMidName { get; set; }

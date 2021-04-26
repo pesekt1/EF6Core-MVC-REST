@@ -5,10 +5,10 @@ using System.Collections.Generic;
 using System.Data.Entity.Infrastructure;
 using System.Linq;
 using System.Threading.Tasks;
-using ContosoUniversity;
-using ContosoUniversity.Models;
+
 using Microsoft.AspNetCore.Mvc;
 using MVCCore.Services;
+using MVCCore.Models;
 
 namespace MVCCore.Rest_Controllers
 {
@@ -104,6 +104,16 @@ namespace MVCCore.Rest_Controllers
 
             //return CreatedAtAction("CreateStudent", new { id = student.ID }, student);
             return CreatedAtAction(nameof(CreateStudent), new { id = student.ID }, student);
+        }
+        
+        // POST: api/Students/createStudentSP
+        [HttpPost]
+        [Route("createStudentSP")]
+        public async Task<ActionResult<Student>> CreateStudentSP(String LastName, String FirstMidName, DateTime EnrollmentDate)
+        {
+            Student student = new Student(LastName, FirstMidName, EnrollmentDate);
+            
+            return student;
         }
         
         // DELETE: api/Students/1

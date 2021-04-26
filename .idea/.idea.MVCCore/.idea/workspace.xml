@@ -13,30 +13,48 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1303173-d1d9-48f5-b7a2-edf9b07b40f5" name="Default Changelist" comment="scaffolding">
-      <change afterPath="$PROJECT_DIR$/.vs/MVCCore/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp3.1/Microsoft.OpenApi.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp3.1/Swashbuckle.AspNetCore.Swagger.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp3.1/Swashbuckle.AspNetCore.SwaggerGen.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp3.1/Swashbuckle.AspNetCore.SwaggerUI.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MVCCore/img/swagger.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/MVCCore.MvcApplicationPartsAssemblyInfo.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/MVCCore.MvcApplicationPartsAssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/MVCCore.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MVCCore/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MVCCore/.idea/contentModel.xml" afterDir="false" />
+    <list default="true" id="a1303173-d1d9-48f5-b7a2-edf9b07b40f5" name="Default Changelist" comment="swagger">
+      <change afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/MVCCore.Migrations.Initial.resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MVCCore/.idea/dataSources/5fd3faef-1182-4f30-8949-f5128974ab36.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MVCCore/.idea/dataSources/5fd3faef-1182-4f30-8949-f5128974ab36.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MVCCore/.idea/dataSources/5fd3faef-1182-4f30-8949-f5128974ab36/storage_v2/_src_/database/EF6MVCCore.JDHSyw/schema/dbo.sYMBAA.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MVCCore/.idea/dataSources/5fd3faef-1182-4f30-8949-f5128974ab36/storage_v2/_src_/database/EF6MVCCore.JDHSyw/schema/dbo.sYMBAA.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MVCCore/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MVCCore/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/Controllers/HomeController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/Controllers/StudentsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/Controllers/StudentsController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/DbContext/SchoolContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/DbContext/SchoolContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/DbContext/SchoolContextFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/DbContext/SchoolContextFactory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/Migrations/202008170448151_Initial.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/Migrations/202008170448151_Initial.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/Migrations/Configuration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/Migrations/Configuration.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/Models/Course.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/Models/Course.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/Models/Enrollment.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/Models/Enrollment.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/Models/ErrorViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/Models/ErrorViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/Models/Student.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/Models/Student.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/Rest Controllers/CoursesRestController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/Rest Controllers/CoursesRestController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/Rest Controllers/StudentsRestController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/Rest Controllers/StudentsRestController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/Services/CoursesService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/Services/CoursesService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/Services/StudentsService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/Services/StudentsService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/Views/Shared/Error.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/Views/Shared/Error.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/Views/Students/Create.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/Views/Students/Create.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/Views/Students/Delete.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/Views/Students/Delete.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/Views/Students/Details.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/Views/Students/Details.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/Views/Students/Edit.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/Views/Students/Edit.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/Views/Students/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/Views/Students/Index.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp3.1/MVCCore.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp3.1/MVCCore.Views.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp3.1/MVCCore.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp3.1/MVCCore.Views.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp3.1/MVCCore.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp3.1/MVCCore.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp3.1/MVCCore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp3.1/MVCCore.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp3.1/MVCCore.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp3.1/MVCCore.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/ContosoUniversity.Migrations.Initial.resources" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/MVCCore.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/MVCCore.Views.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/MVCCore.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/MVCCore.Views.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/MVCCore.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/MVCCore.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/MVCCore.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/MVCCore.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/MVCCore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/MVCCore.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/MVCCore.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/MVCCore.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVCCore/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/Razor/Views/Shared/Error.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/Razor/Views/Shared/Error.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/Razor/Views/Students/Create.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/Razor/Views/Students/Create.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/Razor/Views/Students/Delete.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/Razor/Views/Students/Delete.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/Razor/Views/Students/Details.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/Razor/Views/Students/Details.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/Razor/Views/Students/Edit.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/Razor/Views/Students/Edit.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/Razor/Views/Students/Index.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/Razor/Views/Students/Index.cshtml.g.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,13 +72,28 @@
       <list>
         <option value="$PROJECT_DIR$/MVCCore/Controllers/CoursesController.cs" />
         <option value="$PROJECT_DIR$/MVCCore/appsettings.json" />
-        <option value="$PROJECT_DIR$/MVCCore/DbContext/SchoolContextFactory.cs" />
-        <option value="$PROJECT_DIR$/MVCCore/Services/CoursesService.cs" />
-        <option value="$PROJECT_DIR$/MVCCore/Rest Controllers/StudentsRestController.cs" />
-        <option value="$PROJECT_DIR$/MVCCore/Services/StudentsService.cs" />
-        <option value="$PROJECT_DIR$/MVCCore/Startup.cs" />
-        <option value="$PROJECT_DIR$/MVCCore/Rest Controllers/CoursesRestController.cs" />
         <option value="$PROJECT_DIR$/MVCCore/readme.md" />
+        <option value="$PROJECT_DIR$/MVCCore/Models/Enrollment.cs" />
+        <option value="$PROJECT_DIR$/MVCCore/Models/Course.cs" />
+        <option value="$PROJECT_DIR$/MVCCore/Models/ErrorViewModel.cs" />
+        <option value="$PROJECT_DIR$/MVCCore/Views/Shared/Error.cshtml" />
+        <option value="$PROJECT_DIR$/MVCCore/DbContext/SchoolContextFactory.cs" />
+        <option value="$PROJECT_DIR$/MVCCore/Migrations/202008170448151_Initial.cs" />
+        <option value="$PROJECT_DIR$/MVCCore/Views/Students/Create.cshtml" />
+        <option value="$PROJECT_DIR$/MVCCore/Views/Students/Delete.cshtml" />
+        <option value="$PROJECT_DIR$/MVCCore/Views/Students/Details.cshtml" />
+        <option value="$PROJECT_DIR$/MVCCore/Views/Students/Edit.cshtml" />
+        <option value="$PROJECT_DIR$/MVCCore/Views/Students/Index.cshtml" />
+        <option value="$PROJECT_DIR$/MVCCore/Startup.cs" />
+        <option value="$PROJECT_DIR$/MVCCore/Controllers/StudentsController.cs" />
+        <option value="$PROJECT_DIR$/MVCCore/DbContext/SchoolContext.cs" />
+        <option value="$PROJECT_DIR$/MVCCore/Migrations/Configuration.cs" />
+        <option value="$PROJECT_DIR$/MVCCore/Services/CoursesService.cs" />
+        <option value="$PROJECT_DIR$/MVCCore/Services/StudentsService.cs" />
+        <option value="$PROJECT_DIR$/MVCCore/Rest Controllers/CoursesRestController.cs" />
+        <option value="$PROJECT_DIR$/MVCCore/Rest Controllers/StudentsRestController.cs" />
+        <option value="$PROJECT_DIR$/MVCCore/Controllers/HomeController.cs" />
+        <option value="$PROJECT_DIR$/MVCCore/Models/Student.cs" />
       </list>
     </option>
   </component>
@@ -128,7 +161,7 @@
       <workItem from="1619167102191" duration="160000" />
       <workItem from="1619436263317" duration="8615000" />
       <workItem from="1619468355598" duration="1356000" />
-      <workItem from="1619470017236" duration="1055000" />
+      <workItem from="1619470017236" duration="2968000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1619005230412</created>
@@ -186,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619470043453</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="swagger">
+      <created>1619471087231</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1619471087231</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,29 +252,30 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="scaffolding" />
     <MESSAGE value="-" />
-    <option name="LAST_COMMIT_MESSAGE" value="-" />
+    <MESSAGE value="swagger" />
+    <option name="LAST_COMMIT_MESSAGE" value="swagger" />
   </component>
   <component name="WindowStateProjectService">
     <state x="551" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1619437417622">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="551" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1619437417622" />
-    <state width="1875" height="251" key="GridCell.Tab.0.bottom" timestamp="1619470912076">
+    <state width="1875" height="251" key="GridCell.Tab.0.bottom" timestamp="1619472931563">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="251" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1619470912076" />
-    <state width="1875" height="251" key="GridCell.Tab.0.center" timestamp="1619470912076">
+    <state width="1875" height="251" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1619472931563" />
+    <state width="1875" height="251" key="GridCell.Tab.0.center" timestamp="1619472931563">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="251" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1619470912076" />
-    <state width="1875" height="251" key="GridCell.Tab.0.left" timestamp="1619470912076">
+    <state width="1875" height="251" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1619472931563" />
+    <state width="1875" height="251" key="GridCell.Tab.0.left" timestamp="1619472931563">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="251" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1619470912076" />
-    <state width="1875" height="251" key="GridCell.Tab.0.right" timestamp="1619470912076">
+    <state width="1875" height="251" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1619472931563" />
+    <state width="1875" height="251" key="GridCell.Tab.0.right" timestamp="1619472931563">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="251" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1619470912076" />
+    <state width="1875" height="251" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1619472931563" />
     <state width="1875" height="374" key="GridCell.Tab.1.bottom" timestamp="1619444885945">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -303,18 +344,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="274" height="463" key="HiddenNamespacesPopup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1619437438868" />
-    <state x="551" y="252" key="Vcs.Push.Dialog.v2" timestamp="1619469683419">
+    <state x="669" y="196" key="RiderGenerateDialog" timestamp="1619472985393">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="551" y="252" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1619469683419" />
+    <state x="669" y="196" key="RiderGenerateDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1619472985393" />
+    <state x="551" y="252" key="Vcs.Push.Dialog.v2" timestamp="1619471091736">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="551" y="252" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1619471091736" />
     <state width="968" height="528" key="XDebugger.FullValuePopup" timestamp="1619441930084">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="968" height="528" key="XDebugger.FullValuePopup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1619441930084" />
-    <state x="755" y="339" width="410" height="357" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog" timestamp="1619442005311">
+    <state x="755" y="339" width="410" height="353" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog" timestamp="1619471175309">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="755" y="339" width="410" height="357" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1619442005311" />
+    <state x="755" y="339" width="410" height="353" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1619471175309" />
     <state x="760" y="425" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1619005255554">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -328,10 +373,10 @@
           <line>48</line>
           <properties documentPath="C:\Users\Tomas Pesek\Dropbox\=== KEA ===\My subjects\Databases for developers\Demo apps - GitHub\EF6Core\MVCCore\Rest Controllers\StudentsRestController.cs" initialLine="48">
             <startOffsets>
-              <option value="1471" />
+              <option value="1437" />
             </startOffsets>
             <endOffsets>
-              <option value="1472" />
+              <option value="1438" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="1" />

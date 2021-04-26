@@ -4,9 +4,8 @@ using System.Data.Entity;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Threading.Tasks;
-using ContosoUniversity;
-using ContosoUniversity.Models;
 using Microsoft.AspNetCore.Mvc;
+using MVCCore.Models;
 
 namespace MVCCore.Services
 {
@@ -44,7 +43,7 @@ namespace MVCCore.Services
         
         public async Task<ActionResult<IEnumerable<Object>>> GetStudentsSP()
         {
-            var data = _context.Database.SqlQuery<Student>("getAllStudentsSP");
+            var data = _context.Database.SqlQuery<Student>("sp_getAllStudents");
             return await data.ToListAsync();
         }
         
@@ -64,6 +63,12 @@ namespace MVCCore.Services
             }
 
             return student;
+        }
+        
+        public async Task<ActionResult<IEnumerable<Object>>> GreateStudentSP(int id)
+        {
+            var data = _context.Database.SqlQuery<Student>("exec sp_createStudent @id", new SqlParameter("id", id));
+            return await data.ToListAsync();
         }
         
     }

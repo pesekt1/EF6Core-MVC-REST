@@ -1,4 +1,4 @@
-﻿namespace ContosoUniversity.Migrations
+﻿namespace MVCCore.Migrations
 {
     using System.Data.Entity.Migrations;
 

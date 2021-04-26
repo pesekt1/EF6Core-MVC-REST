@@ -1,9 +1,8 @@
-﻿using System.Data.Entity;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Threading.Tasks;
-using ContosoUniversity.Models;
 using Microsoft.AspNetCore.Mvc;
 using MVCCore.Services;
+using MVCCore.Models;
 
 namespace MVCCore.Rest_Controllers
 {

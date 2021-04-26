@@ -1,9 +1,9 @@
-﻿using ContosoUniversity.Models;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using System.Data.Entity;
 using System.Threading.Tasks;
+using MVCCore.Models;
 
-namespace ContosoUniversity.Controllers
+namespace MVCCore.Controllers
 {
     public class StudentsController : Controller
     {
@@ -28,7 +28,7 @@ namespace ContosoUniversity.Controllers
                 return NotFound();
             }
 
-            var student = await _context.Students.SingleOrDefaultAsync(m => m.ID == id);
+            Student student = await _context.Students.SingleOrDefaultAsync(m => m.ID == id);
             if (student == null)
             {
                 return NotFound();

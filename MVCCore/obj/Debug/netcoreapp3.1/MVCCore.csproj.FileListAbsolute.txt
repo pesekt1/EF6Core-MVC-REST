@@ -78,7 +78,6 @@ C:\Users\Tomas Pesek\Dropbox\=== KEA ===\My subjects\Databases for developers\De
 C:\Users\Tomas Pesek\Dropbox\=== KEA ===\My subjects\Databases for developers\Demo apps - GitHub\EF6Core\MVCCore\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\Tomas Pesek\Dropbox\=== KEA ===\My subjects\Databases for developers\Demo apps - GitHub\EF6Core\MVCCore\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\Tomas Pesek\Dropbox\=== KEA ===\My subjects\Databases for developers\Demo apps - GitHub\EF6Core\MVCCore\obj\Debug\netcoreapp3.1\MVCCore.csprojAssemblyReference.cache
-C:\Users\Tomas Pesek\Dropbox\=== KEA ===\My subjects\Databases for developers\Demo apps - GitHub\EF6Core\MVCCore\obj\Debug\netcoreapp3.1\ContosoUniversity.Migrations.Initial.resources
 C:\Users\Tomas Pesek\Dropbox\=== KEA ===\My subjects\Databases for developers\Demo apps - GitHub\EF6Core\MVCCore\obj\Debug\netcoreapp3.1\MVCCore.csproj.GenerateResource.cache
 C:\Users\Tomas Pesek\Dropbox\=== KEA ===\My subjects\Databases for developers\Demo apps - GitHub\EF6Core\MVCCore\obj\Debug\netcoreapp3.1\MVCCore.AssemblyInfoInputs.cache
 C:\Users\Tomas Pesek\Dropbox\=== KEA ===\My subjects\Databases for developers\Demo apps - GitHub\EF6Core\MVCCore\obj\Debug\netcoreapp3.1\MVCCore.AssemblyInfo.cs
@@ -154,3 +153,4 @@ C:\Users\Tomas Pesek\Dropbox\=== KEA ===\My subjects\Databases for developers\De
 C:\Users\Tomas Pesek\Dropbox\=== KEA ===\My subjects\Databases for developers\Demo apps - GitHub\EF6Core\MVCCore\obj\Debug\netcoreapp3.1\MVCCore.csproj.CoreCompileInputs.cache
 C:\Users\Tomas Pesek\Dropbox\=== KEA ===\My subjects\Databases for developers\Demo apps - GitHub\EF6Core\MVCCore\obj\Debug\netcoreapp3.1\MVCCore.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Tomas Pesek\Dropbox\=== KEA ===\My subjects\Databases for developers\Demo apps - GitHub\EF6Core\MVCCore\obj\Debug\netcoreapp3.1\MVCCore.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Tomas Pesek\Dropbox\=== KEA ===\My subjects\Databases for developers\Demo apps - GitHub\EF6Core\MVCCore\obj\Debug\netcoreapp3.1\MVCCore.Migrations.Initial.resources

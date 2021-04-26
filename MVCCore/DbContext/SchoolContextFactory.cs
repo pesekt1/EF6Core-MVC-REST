@@ -1,6 +1,6 @@
 ﻿using System.Data.Entity.Infrastructure;
 
-namespace ContosoUniversity
+namespace MVCCore
 {
     public class SchoolContextFactory : IDbContextFactory<SchoolContext>
     {

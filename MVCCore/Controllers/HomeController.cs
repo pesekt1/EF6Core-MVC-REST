@@ -1,9 +1,9 @@
-﻿using ContosoUniversity.Models;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System.Diagnostics;
+using MVCCore.Models;
 
-namespace ContosoUniversity.Controllers
+namespace MVCCore.Controllers
 {
     public class HomeController : Controller
     {
