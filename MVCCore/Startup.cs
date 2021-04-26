@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using MVCCore.Services;
 
 namespace MVCCore
 {
@@ -21,6 +22,8 @@ namespace MVCCore
             services.AddControllersWithViews();
             services.AddScoped<SchoolContext>(_ => 
                 new SchoolContext(Configuration.GetConnectionString("DefaultConnection")));
+            services.AddScoped<CoursesService>();
+            services.AddScoped<StudentsService>();
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)

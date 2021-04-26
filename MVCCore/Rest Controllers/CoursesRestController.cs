@@ -1,11 +1,10 @@
 ﻿using System.Data.Entity;
 using System.Collections.Generic;
-using System.Data.Entity.Infrastructure;
-using System.Linq;
 using System.Threading.Tasks;
 using ContosoUniversity;
 using ContosoUniversity.Models;
 using Microsoft.AspNetCore.Mvc;
+using MVCCore.Services;
 
 namespace MVCCore.Rest_Controllers
 {
@@ -13,18 +12,25 @@ namespace MVCCore.Rest_Controllers
     [ApiController]
     public class CoursesController : ControllerBase
     {
-        private readonly SchoolContext _context;
+        private readonly CoursesService _coursesService;
 
-        public CoursesController(SchoolContext context)
+        public CoursesController(CoursesService coursesService)
         {
-            _context = context;
+            _coursesService = coursesService;
         }
+        
+        // private readonly SchoolContext _context;
+        //
+        // public CoursesController(SchoolContext context)
+        // {
+        //     _context = context;
+        // }
 
         // GET: api/TodoItems
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Course>>> GetStudents()
+        public async Task<ActionResult<IEnumerable<Course>>> GetCourses()
         {
-            return await _context.Courses.ToListAsync();
+            return await _coursesService.GetCourses();
         }
     }
 }

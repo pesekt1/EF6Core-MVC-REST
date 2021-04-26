@@ -6,7 +6,7 @@ namespace ContosoUniversity
     {
         public SchoolContext Create()
         {
-            return new SchoolContext("Server=localhost\\SQLEXPRESS;Database=EF6MVCCoreExample;Trusted_Connection=True;MultipleActiveResultSets=true");
+            return new SchoolContext("Server=localhost\\SQLEXPRESS;Database=EF6MVCCore;Trusted_Connection=True;MultipleActiveResultSets=true");
         }
     }
 }

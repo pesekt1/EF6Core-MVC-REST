@@ -32,6 +32,24 @@ namespace MVCCore.Rest_Controllers
             return await _studentsService.GetStudents();
         }
         
+        //using stored procedure
+        // GET: api/Students/getStudentsSP
+        [HttpGet]
+        [Route("getStudentsSP")]
+        public async Task<ActionResult<IEnumerable<Object>>> GetStudentsSP()
+        {
+            return await _studentsService.GetStudentsSP();
+        }
+        
+        //using stored procedure with a parameter
+        // GET: api/Students/getStudentsSP
+        [HttpGet]
+        [Route("getStudentsSP/{id}")]
+        public async Task<ActionResult<IEnumerable<Object>>> GetStudentsByIdSP(int id)
+        {
+            return await _studentsService.GetStudentsByIdSP(id);
+        }
+        
         // GET: api/Students/bad - example of a loop
         [HttpGet]
         [Route("bad")]

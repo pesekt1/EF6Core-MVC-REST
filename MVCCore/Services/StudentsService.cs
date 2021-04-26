@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data.Entity;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Threading.Tasks;
 using ContosoUniversity;
@@ -39,6 +40,18 @@ namespace MVCCore.Services
                         .ToList()
                 })
                 .ToListAsync();
+        }
+        
+        public async Task<ActionResult<IEnumerable<Object>>> GetStudentsSP()
+        {
+            var data = _context.Database.SqlQuery<Student>("getAllStudentsSP");
+            return await data.ToListAsync();
+        }
+        
+        public async Task<ActionResult<IEnumerable<Object>>> GetStudentsByIdSP(int id)
+        {
+            var data = _context.Database.SqlQuery<Student>("exec sp_getStudentById @id", new SqlParameter("id", id));
+            return await data.ToListAsync();
         }
         
         public async Task<ActionResult<Student>> GetStudentById(long id)
