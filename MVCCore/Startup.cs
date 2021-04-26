@@ -17,6 +17,7 @@ namespace MVCCore
 
         public IConfiguration Configuration { get; }
 
+        // register the services
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();

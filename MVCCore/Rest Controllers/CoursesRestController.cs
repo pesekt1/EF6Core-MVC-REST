@@ -1,7 +1,6 @@
 ﻿using System.Data.Entity;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using ContosoUniversity;
 using ContosoUniversity.Models;
 using Microsoft.AspNetCore.Mvc;
 using MVCCore.Services;
