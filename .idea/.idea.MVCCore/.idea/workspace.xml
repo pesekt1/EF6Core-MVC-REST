@@ -14,19 +14,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1303173-d1d9-48f5-b7a2-edf9b07b40f5" name="Default Changelist" comment="changed namespace">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MVCCore/.idea/dataSources/5fd3faef-1182-4f30-8949-f5128974ab36.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MVCCore/.idea/dataSources/5fd3faef-1182-4f30-8949-f5128974ab36.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MVCCore/.idea/dataSources/5fd3faef-1182-4f30-8949-f5128974ab36/storage_v2/_src_/database/EF6MVCCore.JDHSyw/schema/dbo.sYMBAA.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MVCCore/.idea/dataSources/5fd3faef-1182-4f30-8949-f5128974ab36/storage_v2/_src_/database/EF6MVCCore.JDHSyw/schema/dbo.sYMBAA.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MVCCore/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MVCCore/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVCCore/Rest Controllers/StudentsRestController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/Rest Controllers/StudentsRestController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVCCore/Services/StudentsService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/Services/StudentsService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp3.1/MVCCore.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp3.1/MVCCore.Views.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp3.1/MVCCore.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp3.1/MVCCore.Views.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp3.1/MVCCore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp3.1/MVCCore.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp3.1/MVCCore.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp3.1/MVCCore.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/MVCCore.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/MVCCore.Views.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/MVCCore.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/MVCCore.Views.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/MVCCore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/MVCCore.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/MVCCore.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/MVCCore.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +34,6 @@
       <list>
         <option value="$PROJECT_DIR$/MVCCore/Controllers/CoursesController.cs" />
         <option value="$PROJECT_DIR$/MVCCore/appsettings.json" />
-        <option value="$PROJECT_DIR$/MVCCore/readme.md" />
         <option value="$PROJECT_DIR$/MVCCore/Models/Enrollment.cs" />
         <option value="$PROJECT_DIR$/MVCCore/Models/Course.cs" />
         <option value="$PROJECT_DIR$/MVCCore/Models/ErrorViewModel.cs" />
@@ -67,6 +55,7 @@
         <option value="$PROJECT_DIR$/MVCCore/Models/Student.cs" />
         <option value="$PROJECT_DIR$/MVCCore/Rest Controllers/StudentsRestController.cs" />
         <option value="$PROJECT_DIR$/MVCCore/Services/StudentsService.cs" />
+        <option value="$PROJECT_DIR$/MVCCore/readme.md" />
       </list>
     </option>
   </component>
@@ -134,7 +123,7 @@
       <workItem from="1619167102191" duration="160000" />
       <workItem from="1619436263317" duration="8615000" />
       <workItem from="1619468355598" duration="1356000" />
-      <workItem from="1619470017236" duration="3915000" />
+      <workItem from="1619470017236" duration="4104000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1619005230412</created>
@@ -206,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619473096406</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="changed namespace">
+      <created>1619473942570</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1619473942570</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -329,10 +325,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="669" y="196" key="RiderGenerateDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1619472985393" />
-    <state x="551" y="252" key="Vcs.Push.Dialog.v2" timestamp="1619473101327">
+    <state x="551" y="252" key="Vcs.Push.Dialog.v2" timestamp="1619473946861">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="551" y="252" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1619473101327" />
+    <state x="551" y="252" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1619473946861" />
     <state width="968" height="528" key="XDebugger.FullValuePopup" timestamp="1619441930084">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

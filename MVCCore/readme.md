@@ -180,6 +180,44 @@ Run something like this in your Package Manager Console in Visual Studio:
         }
 ```
 
+- Stored procedure for inserting a record
+    - procedure looks like this:
+```sql
+CREATE PROCEDURE sp_createStudent(
+	@LastName AS VARCHAR(50),
+	@FirstMidName AS VARCHAR(50),
+	@EnrollmentDate AS DATE
+	)
+AS
+BEGIN
+	INSERT INTO Student values(@LastName, @FirstMidName, @EnrollmentDate)
+END;
+go
+```
+- service layer:
+```c#
+        public void GreateStudentSP(String LastName, String FirstMidName, DateTime EnrollmentDate)
+        {
+            _context.Database.ExecuteSqlCommand(
+                "exec sp_createStudent @LastName, @FirstMidName,@EnrollmentDate", 
+                    new SqlParameter("LastName", LastName),
+                    new SqlParameter("FirstMidName", FirstMidName),
+                    new SqlParameter("EnrollmentDate", EnrollmentDate)
+                );
+        }
+```
+- rest controller:
+```c#
+        // POST: api/Students/createStudentSP
+        [HttpPost]
+        [Route("createStudentSP")]
+        public void CreateStudentSP(String LastName, String FirstMidName, DateTime EnrollmentDate)
+        {
+            //Student student = new Student(LastName, FirstMidName, EnrollmentDate);
+            _studentsService.GreateStudentSP(LastName, FirstMidName, EnrollmentDate);
+        }
+```
+
 ### MVC architecture ... controllers returning the view - http web page
 ```c#
         // GET: Students
