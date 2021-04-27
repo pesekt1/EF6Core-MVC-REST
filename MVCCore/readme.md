@@ -1,4 +1,4 @@
-﻿#MVC Core project:
+﻿# MVC Core project:
 
 ### SQL Server database:
 - connection string in appsettings.json:

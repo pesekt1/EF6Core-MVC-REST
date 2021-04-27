@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Data.Entity;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using MVCCore.Services;
@@ -11,24 +12,27 @@ namespace MVCCore.Rest_Controllers
     public class CoursesController : ControllerBase
     {
         private readonly CoursesService _coursesService;
+        private readonly SchoolContext _context;
 
-        public CoursesController(CoursesService coursesService)
+        public CoursesController(CoursesService coursesService, SchoolContext context)
         {
             _coursesService = coursesService;
+            _context = context;
         }
-        
-        // private readonly SchoolContext _context;
-        //
-        // public CoursesController(SchoolContext context)
-        // {
-        //     _context = context;
-        // }
 
-        // GET: api/TodoItems
+        // GET: api/Courses
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Course>>> GetCourses()
         {
             return await _coursesService.GetCourses();
+        }
+        
+        // GET: api/Courses/bad
+        [HttpGet]
+        [Route("bad")]
+        public async Task<ActionResult<IEnumerable<Course>>> GetCoursesBad()
+        {
+            return await _context.Courses.ToListAsync();
         }
     }
 }

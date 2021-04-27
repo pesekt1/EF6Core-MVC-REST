@@ -5,6 +5,7 @@ using System.Data.SqlClient;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using MVCCore.Models;
 
 namespace MVCCore.Services
@@ -43,7 +44,7 @@ namespace MVCCore.Services
         
         public async Task<ActionResult<IEnumerable<Object>>> GetStudentsSP()
         {
-            var data = _context.Database.SqlQuery<Student>("sp_getAllStudents");
+            var data = _context.Database.SqlQuery<Student>("exec sp_getAllStudents");
             return await data.ToListAsync();
         }
         
@@ -65,14 +66,22 @@ namespace MVCCore.Services
             return student;
         }
         
-        public void GreateStudentSP(String LastName, String FirstMidName, DateTime EnrollmentDate)
+        public async Task<ActionResult<IEnumerable<Object>>> GreateStudentSP(String LastName, String FirstMidName, DateTime EnrollmentDate)
         {
-            _context.Database.ExecuteSqlCommand(
+            // _context.Database.ExecuteSqlCommand(
+            //     "exec sp_createStudent @LastName, @FirstMidName,@EnrollmentDate", 
+            //     new SqlParameter("LastName", LastName),
+            //     new SqlParameter("FirstMidName", FirstMidName),
+            //     new SqlParameter("EnrollmentDate", EnrollmentDate)
+            // );
+            
+            var data = _context.Database.SqlQuery<Student>(
                 "exec sp_createStudent @LastName, @FirstMidName,@EnrollmentDate", 
                     new SqlParameter("LastName", LastName),
                     new SqlParameter("FirstMidName", FirstMidName),
                     new SqlParameter("EnrollmentDate", EnrollmentDate)
                 );
+            return await data.ToListAsync();
         }
 
     }

@@ -109,10 +109,10 @@ namespace MVCCore.Rest_Controllers
         // POST: api/Students/createStudentSP
         [HttpPost]
         [Route("createStudentSP")]
-        public void CreateStudentSP(String LastName, String FirstMidName, DateTime EnrollmentDate)
+        public async Task<ActionResult<IEnumerable<Object>>> CreateStudentSP(String LastName, String FirstMidName, DateTime EnrollmentDate)
         {
             //Student student = new Student(LastName, FirstMidName, EnrollmentDate);
-            _studentsService.GreateStudentSP(LastName, FirstMidName, EnrollmentDate);
+            return await _studentsService.GreateStudentSP(LastName, FirstMidName, EnrollmentDate);
         }
         
         // DELETE: api/Students/1
