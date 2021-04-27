@@ -13,28 +13,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1303173-d1d9-48f5-b7a2-edf9b07b40f5" name="Default Changelist" comment="changed namespace">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MVCCore/.idea/dataSources/5fd3faef-1182-4f30-8949-f5128974ab36.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MVCCore/.idea/dataSources/5fd3faef-1182-4f30-8949-f5128974ab36.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MVCCore/.idea/dataSources/5fd3faef-1182-4f30-8949-f5128974ab36/storage_v2/_src_/database/EF6MVCCore.JDHSyw/schema/INFORMATION_SCHEMA.NBgcMw.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MVCCore/.idea/dataSources/5fd3faef-1182-4f30-8949-f5128974ab36/storage_v2/_src_/database/EF6MVCCore.JDHSyw/schema/INFORMATION_SCHEMA.NBgcMw.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MVCCore/.idea/dataSources/5fd3faef-1182-4f30-8949-f5128974ab36/storage_v2/_src_/database/EF6MVCCore.JDHSyw/schema/dbo.sYMBAA.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MVCCore/.idea/dataSources/5fd3faef-1182-4f30-8949-f5128974ab36/storage_v2/_src_/database/EF6MVCCore.JDHSyw/schema/dbo.sYMBAA.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MVCCore/.idea/dataSources/5fd3faef-1182-4f30-8949-f5128974ab36/storage_v2/_src_/database/EF6MVCCore.JDHSyw/schema/sys.zb4BAA.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MVCCore/.idea/dataSources/5fd3faef-1182-4f30-8949-f5128974ab36/storage_v2/_src_/database/EF6MVCCore.JDHSyw/schema/sys.zb4BAA.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MVCCore/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MVCCore/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVCCore/Models/Course.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/Models/Course.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVCCore/Models/Enrollment.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/Models/Enrollment.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVCCore/Models/Student.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/Models/Student.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVCCore/Rest Controllers/CoursesRestController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/Rest Controllers/CoursesRestController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVCCore/Rest Controllers/StudentsRestController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/Rest Controllers/StudentsRestController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVCCore/Services/StudentsService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/Services/StudentsService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp3.1/MVCCore.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp3.1/MVCCore.Views.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp3.1/MVCCore.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp3.1/MVCCore.Views.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp3.1/MVCCore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp3.1/MVCCore.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp3.1/MVCCore.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp3.1/MVCCore.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/MVCCore.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/MVCCore.Views.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/MVCCore.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/MVCCore.Views.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/MVCCore.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/MVCCore.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/MVCCore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/MVCCore.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/MVCCore.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/MVCCore.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVCCore/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/obj/rider.project.restore.info" afterDir="false" />
+    <list default="true" id="a1303173-d1d9-48f5-b7a2-edf9b07b40f5" name="Default Changelist" comment="-">
       <change beforePath="$PROJECT_DIR$/MVCCore/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,13 +49,13 @@
         <option value="$PROJECT_DIR$/MVCCore/Services/CoursesService.cs" />
         <option value="$PROJECT_DIR$/MVCCore/Controllers/HomeController.cs" />
         <option value="$PROJECT_DIR$/MVCCore/Models/Course.cs" />
-        <option value="$PROJECT_DIR$/MVCCore/readme.md" />
         <option value="$PROJECT_DIR$/MVCCore/Rest Controllers/CoursesRestController.cs" />
         <option value="$PROJECT_DIR$/MVCCore/Models/Enrollment.cs" />
         <option value="$PROJECT_DIR$/MVCCore/Models/Student.cs" />
         <option value="/936041f8/5fd3faef-1182-4f30-8949-f5128974ab36/database/EF6MVCCore/schema/dbo/routine/sp_createStudent.sql" />
         <option value="$PROJECT_DIR$/MVCCore/Services/StudentsService.cs" />
         <option value="$PROJECT_DIR$/MVCCore/Rest Controllers/StudentsRestController.cs" />
+        <option value="$PROJECT_DIR$/MVCCore/readme.md" />
       </list>
     </option>
   </component>
@@ -146,7 +125,7 @@
       <workItem from="1619468355598" duration="1356000" />
       <workItem from="1619470017236" duration="4127000" />
       <workItem from="1619474401841" duration="134000" />
-      <workItem from="1619504003844" duration="6964000" />
+      <workItem from="1619504003844" duration="8022000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1619005230412</created>
@@ -232,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619474129067</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="-">
+      <created>1619511497541</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1619511497541</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,32 +243,32 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="first commit" />
     <MESSAGE value="scaffolding" />
-    <MESSAGE value="-" />
     <MESSAGE value="swagger" />
     <MESSAGE value="changed namespace" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed namespace" />
+    <MESSAGE value="-" />
+    <option name="LAST_COMMIT_MESSAGE" value="-" />
   </component>
   <component name="WindowStateProjectService">
     <state x="551" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1619437417622">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="551" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1619437417622" />
-    <state width="1875" height="251" key="GridCell.Tab.0.bottom" timestamp="1619511116017">
+    <state width="1875" height="251" key="GridCell.Tab.0.bottom" timestamp="1619511275427">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="251" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1619511116017" />
-    <state width="1875" height="251" key="GridCell.Tab.0.center" timestamp="1619511116017">
+    <state width="1875" height="251" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1619511275427" />
+    <state width="1875" height="251" key="GridCell.Tab.0.center" timestamp="1619511275427">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="251" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1619511116017" />
-    <state width="1875" height="251" key="GridCell.Tab.0.left" timestamp="1619511116017">
+    <state width="1875" height="251" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1619511275427" />
+    <state width="1875" height="251" key="GridCell.Tab.0.left" timestamp="1619511275427">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="251" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1619511116017" />
-    <state width="1875" height="251" key="GridCell.Tab.0.right" timestamp="1619511116017">
+    <state width="1875" height="251" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1619511275427" />
+    <state width="1875" height="251" key="GridCell.Tab.0.right" timestamp="1619511275427">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="251" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1619511116017" />
+    <state width="1875" height="251" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1619511275427" />
     <state width="1875" height="374" key="GridCell.Tab.1.bottom" timestamp="1619474147865">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -355,10 +341,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="669" y="196" key="RiderGenerateDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1619472985393" />
-    <state x="551" y="252" key="Vcs.Push.Dialog.v2" timestamp="1619474133621">
+    <state x="551" y="252" key="Vcs.Push.Dialog.v2" timestamp="1619511503381">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="551" y="252" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1619474133621" />
+    <state x="551" y="252" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1619511503381" />
     <state width="968" height="528" key="XDebugger.FullValuePopup" timestamp="1619441930084">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

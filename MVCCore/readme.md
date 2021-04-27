@@ -107,6 +107,24 @@ Run something like this in your Package Manager Console in Visual Studio:
     }
 ```
 
+### JsonIgnore
+- We can use JsonIgnore to avoid infinite loops when we have a mapping classes containing another mapping classes:
+    - Example: Student class contains Enrollments and Enrollment contains Student - potential loop...
+```c#
+    public class Enrollment
+    {
+        public int EnrollmentID { get; set; }
+        public int CourseID { get; set; }
+        public int StudentID { get; set; }
+        public Grade? Grade { get; set; }
+        
+        [JsonIgnore]
+        public virtual Course Course { get; set; }
+        [JsonIgnore]
+        public virtual Student Student { get; set; }
+    }
+```
+
 ### Startup
 
 - Configure services - like services for REST Controllers, and Swagger API documentation
