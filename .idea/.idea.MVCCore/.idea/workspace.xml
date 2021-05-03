@@ -14,7 +14,220 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1303173-d1d9-48f5-b7a2-edf9b07b40f5" name="Default Changelist" comment="-">
-      <change beforePath="$PROJECT_DIR$/MVCCore/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/Options/AuthFailedResponse.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/Options/AuthSuccessResponse.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/Options/AuthenticationResult.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/Options/JwtSettings.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/EntityFramework.SqlServer.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/EntityFramework.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/Humanizer.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/MVCCore.Views.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/MVCCore.Views.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/MVCCore.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/MVCCore.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/MVCCore.dll.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/MVCCore.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/MVCCore.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/MVCCore.runtimeconfig.dev.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/MVCCore.runtimeconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/Microsoft.Data.SqlClient.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/Microsoft.EntityFrameworkCore.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/Microsoft.EntityFrameworkCore.Design.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/Microsoft.EntityFrameworkCore.Relational.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/Microsoft.EntityFrameworkCore.SqlServer.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/Microsoft.EntityFrameworkCore.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/Microsoft.Extensions.DependencyInjection.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/Microsoft.Identity.Client.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/Microsoft.IdentityModel.JsonWebTokens.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/Microsoft.IdentityModel.Logging.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/Microsoft.IdentityModel.Protocols.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/Microsoft.IdentityModel.Tokens.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/Microsoft.OpenApi.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/Swashbuckle.AspNetCore.Swagger.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/Swashbuckle.AspNetCore.SwaggerGen.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/Swashbuckle.AspNetCore.SwaggerUI.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/System.CodeDom.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/System.Configuration.ConfigurationManager.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/System.Data.SqlClient.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/System.Diagnostics.DiagnosticSource.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/System.IdentityModel.Tokens.Jwt.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/System.Runtime.Caching.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/System.Security.Cryptography.ProtectedData.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/appsettings.Development.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/appsettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/ref/MVCCore.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/runtimes/unix/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/runtimes/win-arm64/native/sni.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/runtimes/win-x64/native/sni.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/runtimes/win-x86/native/sni.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/runtimes/win/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/runtimes/win/lib/netstandard2.0/System.Runtime.Caching.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/apphost.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp5.0/.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp5.0/MVCCore.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp5.0/MVCCore.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp5.0/MVCCore.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp5.0/MVCCore.Migrations.Initial.resources" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp5.0/MVCCore.MvcApplicationPartsAssemblyInfo.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp5.0/MVCCore.MvcApplicationPartsAssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp5.0/MVCCore.RazorAssemblyInfo.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp5.0/MVCCore.RazorAssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp5.0/MVCCore.RazorCoreGenerate.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp5.0/MVCCore.RazorTargetAssemblyInfo.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp5.0/MVCCore.RazorTargetAssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp5.0/MVCCore.TagHelpers.input.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp5.0/MVCCore.TagHelpers.output.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp5.0/MVCCore.Views.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp5.0/MVCCore.Views.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp5.0/MVCCore.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp5.0/MVCCore.csproj.CopyComplete" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp5.0/MVCCore.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp5.0/MVCCore.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp5.0/MVCCore.csproj.GenerateResource.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp5.0/MVCCore.csprojAssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp5.0/MVCCore.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp5.0/MVCCore.dll.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp5.0/MVCCore.genruntimeconfig.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp5.0/MVCCore.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp5.0/Razor/Views/Home/Index.cshtml.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp5.0/Razor/Views/Home/Privacy.cshtml.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp5.0/Razor/Views/Shared/Error.cshtml.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp5.0/Razor/Views/Shared/_Layout.cshtml.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp5.0/Razor/Views/Shared/_ValidationScriptsPartial.cshtml.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp5.0/Razor/Views/Students/Create.cshtml.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp5.0/Razor/Views/Students/Delete.cshtml.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp5.0/Razor/Views/Students/Details.cshtml.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp5.0/Razor/Views/Students/Edit.cshtml.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp5.0/Razor/Views/Students/Index.cshtml.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp5.0/Razor/Views/_ViewImports.cshtml.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp5.0/Razor/Views/_ViewStart.cshtml.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp5.0/apphost.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp5.0/ref/MVCCore.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp5.0/staticwebassets/MVCCore.StaticWebAssets.Manifest.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp5.0/staticwebassets/MVCCore.StaticWebAssets.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MVCCore/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MVCCore/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MVCCore/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MVCCore/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/MVCCore/DesignTimeBuild/.dtbcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/MVCCore/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/MVCCore/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/MVCCore/v16/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/MVCCore.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/MVCCore.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/Rest Controllers/StudentsRestController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/Rest Controllers/StudentsRestController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/Services/StudentsService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/Services/StudentsService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp3.1/EntityFramework.SqlServer.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp3.1/EntityFramework.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp3.1/Humanizer.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp3.1/MVCCore.Views.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp3.1/MVCCore.Views.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp3.1/MVCCore.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp3.1/MVCCore.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp3.1/MVCCore.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp3.1/MVCCore.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp3.1/MVCCore.runtimeconfig.dev.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp3.1/MVCCore.runtimeconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp3.1/Microsoft.Data.SqlClient.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Abstractions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Design.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Relational.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.SqlServer.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Caching.Abstractions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Caching.Memory.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.Abstractions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Options.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Primitives.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp3.1/Microsoft.Identity.Client.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.JsonWebTokens.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Logging.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Protocols.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Tokens.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp3.1/Microsoft.OpenApi.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp3.1/Properties/launchSettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp3.1/Swashbuckle.AspNetCore.Swagger.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp3.1/Swashbuckle.AspNetCore.SwaggerGen.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp3.1/Swashbuckle.AspNetCore.SwaggerUI.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp3.1/System.CodeDom.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp3.1/System.Collections.Immutable.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp3.1/System.ComponentModel.Annotations.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp3.1/System.Configuration.ConfigurationManager.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp3.1/System.Data.SqlClient.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp3.1/System.Diagnostics.DiagnosticSource.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp3.1/System.IdentityModel.Tokens.Jwt.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp3.1/System.Runtime.Caching.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp3.1/System.Security.Cryptography.ProtectedData.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp3.1/appsettings.Development.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp3.1/appsettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp3.1/runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp3.1/runtimes/unix/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp3.1/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp3.1/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp3.1/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp3.1/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp3.1/runtimes/win-arm64/native/sni.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp3.1/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp3.1/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp3.1/runtimes/win-x64/native/sni.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp3.1/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp3.1/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp3.1/runtimes/win-x86/native/sni.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp3.1/runtimes/win/lib/netstandard2.0/System.Runtime.Caching.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp3.1/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/MVCCore.MvcApplicationPartsAssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/MVCCore.MvcApplicationPartsAssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/MVCCore.RazorCoreGenerate.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/MVCCore.RazorTargetAssemblyInfo.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/MVCCore.RazorTargetAssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/MVCCore.TagHelpers.input.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/MVCCore.TagHelpers.output.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/MVCCore.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/MVCCore.Views.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/MVCCore.Views.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/MVCCore.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/MVCCore.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/MVCCore.csproj.CopyComplete" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/MVCCore.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/MVCCore.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/MVCCore.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/MVCCore.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/MVCCore.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/MVCCore.genruntimeconfig.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/MVCCore.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/Razor/Views/Home/Index.cshtml.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/Razor/Views/Home/Privacy.cshtml.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/Razor/Views/Shared/Error.cshtml.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_Layout.cshtml.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_ValidationScriptsPartial.cshtml.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/Razor/Views/Students/Create.cshtml.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/Razor/Views/Students/Delete.cshtml.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/Razor/Views/Students/Details.cshtml.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/Razor/Views/Students/Edit.cshtml.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/Razor/Views/Students/Index.cshtml.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/Razor/Views/_ViewImports.cshtml.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/Razor/Views/_ViewStart.cshtml.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/staticwebassets/MVCCore.StaticWebAssets.Manifest.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp3.1/staticwebassets/MVCCore.StaticWebAssets.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/obj/MVCCore.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/obj/MVCCore.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/obj/MVCCore.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/obj/MVCCore.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +245,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/MVCCore/Controllers/CoursesController.cs" />
-        <option value="$PROJECT_DIR$/MVCCore/appsettings.json" />
         <option value="$PROJECT_DIR$/MVCCore/Models/ErrorViewModel.cs" />
         <option value="$PROJECT_DIR$/MVCCore/Views/Shared/Error.cshtml" />
         <option value="$PROJECT_DIR$/MVCCore/DbContext/SchoolContextFactory.cs" />
@@ -42,7 +254,6 @@
         <option value="$PROJECT_DIR$/MVCCore/Views/Students/Details.cshtml" />
         <option value="$PROJECT_DIR$/MVCCore/Views/Students/Edit.cshtml" />
         <option value="$PROJECT_DIR$/MVCCore/Views/Students/Index.cshtml" />
-        <option value="$PROJECT_DIR$/MVCCore/Startup.cs" />
         <option value="$PROJECT_DIR$/MVCCore/Controllers/StudentsController.cs" />
         <option value="$PROJECT_DIR$/MVCCore/DbContext/SchoolContext.cs" />
         <option value="$PROJECT_DIR$/MVCCore/Migrations/Configuration.cs" />
@@ -53,9 +264,11 @@
         <option value="$PROJECT_DIR$/MVCCore/Models/Enrollment.cs" />
         <option value="$PROJECT_DIR$/MVCCore/Models/Student.cs" />
         <option value="/936041f8/5fd3faef-1182-4f30-8949-f5128974ab36/database/EF6MVCCore/schema/dbo/routine/sp_createStudent.sql" />
-        <option value="$PROJECT_DIR$/MVCCore/Services/StudentsService.cs" />
-        <option value="$PROJECT_DIR$/MVCCore/Rest Controllers/StudentsRestController.cs" />
         <option value="$PROJECT_DIR$/MVCCore/readme.md" />
+        <option value="$PROJECT_DIR$/MVCCore/Services/StudentsService.cs" />
+        <option value="$PROJECT_DIR$/MVCCore/appsettings.json" />
+        <option value="$PROJECT_DIR$/MVCCore/Rest Controllers/StudentsRestController.cs" />
+        <option value="$PROJECT_DIR$/MVCCore/Startup.cs" />
       </list>
     </option>
   </component>
@@ -125,7 +338,12 @@
       <workItem from="1619468355598" duration="1356000" />
       <workItem from="1619470017236" duration="4127000" />
       <workItem from="1619474401841" duration="134000" />
-      <workItem from="1619504003844" duration="8022000" />
+      <workItem from="1619504003844" duration="8461000" />
+      <workItem from="1620024640432" duration="5146000" />
+      <workItem from="1620045157318" duration="532000" />
+      <workItem from="1620046863105" duration="42000" />
+      <workItem from="1620048013834" duration="212000" />
+      <workItem from="1620048792112" duration="824000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1619005230412</created>
@@ -218,7 +436,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619511497541</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="-">
+      <created>1619512941531</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1619512941531</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,22 +478,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="551" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1619437417622" />
-    <state width="1875" height="251" key="GridCell.Tab.0.bottom" timestamp="1619511275427">
+    <state width="1875" height="251" key="GridCell.Tab.0.bottom" timestamp="1620049265885">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="251" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1619511275427" />
-    <state width="1875" height="251" key="GridCell.Tab.0.center" timestamp="1619511275427">
+    <state width="1875" height="251" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1620039248742" />
+    <state width="1875" height="251" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620049265885" />
+    <state width="1875" height="251" key="GridCell.Tab.0.center" timestamp="1620049265885">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="251" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1619511275427" />
-    <state width="1875" height="251" key="GridCell.Tab.0.left" timestamp="1619511275427">
+    <state width="1875" height="251" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1620039248742" />
+    <state width="1875" height="251" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620049265885" />
+    <state width="1875" height="251" key="GridCell.Tab.0.left" timestamp="1620049265885">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="251" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1619511275427" />
-    <state width="1875" height="251" key="GridCell.Tab.0.right" timestamp="1619511275427">
+    <state width="1875" height="251" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1620039248742" />
+    <state width="1875" height="251" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620049265885" />
+    <state width="1875" height="251" key="GridCell.Tab.0.right" timestamp="1620049265885">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="251" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1619511275427" />
+    <state width="1875" height="251" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1620039248742" />
+    <state width="1875" height="251" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620049265885" />
     <state width="1875" height="374" key="GridCell.Tab.1.bottom" timestamp="1619474147865">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -341,10 +570,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="669" y="196" key="RiderGenerateDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1619472985393" />
-    <state x="551" y="252" key="Vcs.Push.Dialog.v2" timestamp="1619511503381">
+    <state x="551" y="252" key="Vcs.Push.Dialog.v2" timestamp="1619512946910">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="551" y="252" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1619511503381" />
+    <state x="551" y="252" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1619512946910" />
     <state width="968" height="528" key="XDebugger.FullValuePopup" timestamp="1619441930084">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -361,24 +590,5 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="760" y="425" key="git4idea.remote.GitConfigureRemotesDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1619005255554" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/MVCCore/Rest Controllers/StudentsRestController.cs</url>
-          <line>48</line>
-          <properties documentPath="C:\Users\Tomas Pesek\Dropbox\=== KEA ===\My subjects\Databases for developers\Demo apps - GitHub\EF6Core\MVCCore\Rest Controllers\StudentsRestController.cs" initialLine="48">
-            <startOffsets>
-              <option value="1437" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1438" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

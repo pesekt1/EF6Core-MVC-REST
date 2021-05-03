@@ -5,7 +5,8 @@ using System.Collections.Generic;
 using System.Data.Entity.Infrastructure;
 using System.Linq;
 using System.Threading.Tasks;
-
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using MVCCore.Services;
 using MVCCore.Models;
@@ -27,6 +28,7 @@ namespace MVCCore.Rest_Controllers
 
         // GET: api/Students
         [HttpGet]
+        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
         public async Task<ActionResult<IEnumerable<Object>>> GetStudents()
         {
             return await _studentsService.GetStudents();
@@ -112,7 +114,7 @@ namespace MVCCore.Rest_Controllers
         public async Task<ActionResult<IEnumerable<Object>>> CreateStudentSP(String LastName, String FirstMidName, DateTime EnrollmentDate)
         {
             //Student student = new Student(LastName, FirstMidName, EnrollmentDate);
-            return await _studentsService.GreateStudentSP(LastName, FirstMidName, EnrollmentDate);
+            return await _studentsService.CreateStudentSP(LastName, FirstMidName, EnrollmentDate);
         }
         
         // DELETE: api/Students/1

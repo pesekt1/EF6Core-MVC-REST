@@ -46,11 +46,17 @@
         <e p="MVCCore.csproj" t="IncludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
-            <e p="netcoreapp3.1" t="Include">
+            <e p="netcoreapp5.0" t="Include">
               <e p="MVCCore.AssemblyInfo.cs" t="Include" />
               <e p="MVCCore.RazorAssemblyInfo.cs" t="Include" />
             </e>
           </e>
+        </e>
+        <e p="Options" t="Include">
+          <e p="AuthenticationResult.cs" t="Include" />
+          <e p="AuthFailedResponse.cs" t="Include" />
+          <e p="AuthSuccessResponse.cs" t="Include" />
+          <e p="JwtSettings.cs" t="Include" />
         </e>
         <e p="Program.cs" t="Include" />
         <e p="Properties" t="Include">

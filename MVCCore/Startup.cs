@@ -1,9 +1,13 @@
+using System.Text;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.IdentityModel.Tokens;
 using MVCCore.Services;
+using SportStore.Options;
 
 namespace MVCCore
 {
@@ -19,6 +23,8 @@ namespace MVCCore
         // register the services
         public void ConfigureServices(IServiceCollection services)
         {
+            //try this: services.AddControllers();
+            
             services.AddControllersWithViews();
             services.AddScoped<SchoolContext>(_ => 
                 new SchoolContext(Configuration.GetConnectionString("DefaultConnection")));
@@ -27,6 +33,33 @@ namespace MVCCore
 
             // Register the Swagger generator, defining 1 or more Swagger documents
             services.AddSwaggerGen();
+            
+            //security
+            var jwtSettings = new JwtSettings();
+            Configuration.Bind(key: nameof(jwtSettings),jwtSettings);
+            services.AddSingleton(jwtSettings);
+            
+            services.AddAuthentication(configureOptions: x =>
+                {
+                    x.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+                    x.DefaultScheme = JwtBearerDefaults.AuthenticationScheme;
+                    x.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+                })
+                .AddJwtBearer(x =>
+                {
+                    x.SaveToken = true;
+                    x.TokenValidationParameters = new TokenValidationParameters
+                    {
+                        ValidateIssuerSigningKey = true,
+                        IssuerSigningKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes(jwtSettings.Secret)),
+                        ValidateIssuer = false,
+                        ValidateAudience = false,
+                        RequireExpirationTime = false,
+                        ValidateLifetime = true
+                    };
+                });
+            
+            
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -45,6 +78,8 @@ namespace MVCCore
 
             app.UseRouting();
 
+            app.UseAuthentication();
+            
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>

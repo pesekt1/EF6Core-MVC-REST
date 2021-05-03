@@ -66,14 +66,14 @@ namespace MVCCore.Services
             return student;
         }
         
-        public async Task<ActionResult<IEnumerable<Object>>> GreateStudentSP(String LastName, String FirstMidName, DateTime EnrollmentDate)
+        public async Task<ActionResult<IEnumerable<Object>>> CreateStudentSP(String LastName, String FirstMidName, DateTime EnrollmentDate)
         {
-            // _context.Database.ExecuteSqlCommand(
-            //     "exec sp_createStudent @LastName, @FirstMidName,@EnrollmentDate", 
-            //     new SqlParameter("LastName", LastName),
-            //     new SqlParameter("FirstMidName", FirstMidName),
-            //     new SqlParameter("EnrollmentDate", EnrollmentDate)
-            // );
+            // _context.Database.ExecuteSqlCommandAsync(
+            //      "exec sp_createStudent @LastName, @FirstMidName,@EnrollmentDate", 
+            //      new SqlParameter("LastName", LastName),
+            //      new SqlParameter("FirstMidName", FirstMidName),
+            //      new SqlParameter("EnrollmentDate", EnrollmentDate)
+            //  );
             
             var data = _context.Database.SqlQuery<Student>(
                 "exec sp_createStudent @LastName, @FirstMidName,@EnrollmentDate", 
