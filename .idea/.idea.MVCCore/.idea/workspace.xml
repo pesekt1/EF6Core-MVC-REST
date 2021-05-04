@@ -14,10 +14,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1303173-d1d9-48f5-b7a2-edf9b07b40f5" name="Default Changelist" comment="-">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.MVCCore/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MVCCore/img/env.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MVCCore/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MVCCore/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MVCCore/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MVCCore/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVCCore/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -556,7 +552,7 @@
       <workItem from="1620048013834" duration="212000" />
       <workItem from="1620048792112" duration="10544000" />
       <workItem from="1620123670018" duration="9208000" />
-      <workItem from="1620138505729" duration="14076000" />
+      <workItem from="1620138505729" duration="14133000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1619005230412</created>
@@ -677,7 +673,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620156382603</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="-">
+      <created>1620157145320</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1620157145320</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -705,9 +708,9 @@
     <MESSAGE value="swagger" />
     <MESSAGE value="changed namespace" />
     <MESSAGE value="added security" />
-    <MESSAGE value="-" />
     <MESSAGE value="refactoring" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactoring" />
+    <MESSAGE value="-" />
+    <option name="LAST_COMMIT_MESSAGE" value="-" />
   </component>
   <component name="WindowStateProjectService">
     <state x="347" y="360" key="#SQL_Dialects" timestamp="1620156990706">
@@ -814,10 +817,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="669" y="196" key="RiderGenerateDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620138693663" />
-    <state x="551" y="252" key="Vcs.Push.Dialog.v2" timestamp="1620156388251">
+    <state x="551" y="252" key="Vcs.Push.Dialog.v2" timestamp="1620157150319">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="551" y="252" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620156388251" />
+    <state x="551" y="252" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620157150319" />
     <state width="968" height="528" key="XDebugger.FullValuePopup" timestamp="1619441930084">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -338,7 +338,7 @@ Generate JWT:
 ```
 
 HttpRequest for login:
-```http
+```
 POST https://{{host}}/api/Auth/login?username=pesekt&password=123456
 
 > {% client.global.set("auth_token", response.body.token);
