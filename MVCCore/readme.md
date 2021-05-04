@@ -8,6 +8,27 @@
       }
  ```     
 
+### Environment variables:
+
+It is better to move secrets to environment variables. This is done via Properties/launchSettings.json:
+```json
+    "MVCCore": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "JWT_SECRET": "kb5lifvm4keqxq84oq386d3z8km1chtk",
+        "DB_URL": "Server=localhost\\SQLEXPRESS;Database=EF6MVCCore;Trusted_Connection=True;MultipleActiveResultSets=true"
+      },
+      "applicationUrl": "https://localhost:5558"
+    }
+```
+
+We can see the Environment variables for the project:
+
+![swagger](img/env.png)
+
+
 ### Scaffolding - generating the mapping classes from existing database
 For generating model classes from the existing database we can use scaffolding:
 Run something like this in your Package Manager Console in Visual Studio:
@@ -23,6 +44,7 @@ Run something like this in your Package Manager Console in Visual Studio:
 ### Database Mapping
 - Models mapping tables
 ```c#
+    [Table("Student")]
     public class Student
     {
         public int ID { get; set; }
@@ -131,14 +153,11 @@ Run something like this in your Package Manager Console in Visual Studio:
 ```c#
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllersWithViews();
             services.AddScoped<SchoolContext>(_ => 
-                new SchoolContext(Configuration.GetConnectionString("DefaultConnection")));
+                new SchoolContext(Environment.GetEnvironmentVariable("DB_URL")));
+            services.AddControllers();
+            services.AddControllersWithViews();
             services.AddScoped<CoursesService>();
-            services.AddScoped<StudentsService>();
-
-            // Register the Swagger generator, defining 1 or more Swagger documents
-            services.AddSwaggerGen();
         }
 ```
 
@@ -269,17 +288,14 @@ go
 
 Data encryption:
 ```c#
-        public static string Encryptdata(string text)
+        public static string EncryptData(string text)
         {
-            string strmsg = string.Empty;
-            byte[] encode = new byte[text.Length];
-            encode = Encoding.UTF8.GetBytes(text);
-            strmsg = Convert.ToBase64String(encode);
-            return strmsg;
+            var byteArray = Encoding.UTF32.GetBytes(text);// UTF8.GetBytes(text);
+            return Convert.ToBase64String(byteArray);
         }
 ```
 
-Compare the credentials - we need to decrypt the saved password:
+Compare the credentials - we encrypt provided password and compare with the one in the database:
 ```c#
         public async Task<AuthenticationResult> Login(string username, string password)
         {
@@ -299,12 +315,12 @@ Generate JWT:
         private AuthenticationResult GenerateToken(User user)
         {
             var tokenHandler = new JwtSecurityTokenHandler();
-            var key = Encoding.ASCII.GetBytes(_jwtSettings.Secret);
+            var key = Encoding.ASCII.GetBytes(_jwtSecret);
             var tokenDescriptor = new SecurityTokenDescriptor
             {
                 Subject = new ClaimsIdentity(new[]
                 {
-                    new Claim(JwtRegisteredClaimNames.Sub, value: user.Email),
+                    new Claim(JwtRegisteredClaimNames.Sub, value: user.Id.ToString()),
                     new Claim(JwtRegisteredClaimNames.Jti, value: Guid.NewGuid().ToString()),
                     new Claim(JwtRegisteredClaimNames.Email, value: user.Email)
                 }),
@@ -313,7 +329,6 @@ Generate JWT:
             };
 
             var token = tokenHandler.CreateToken(tokenDescriptor);
-
             return new AuthenticationResult
             {
                 Success = true,
@@ -323,7 +338,7 @@ Generate JWT:
 ```
 
 HttpRequest for login:
-```http request
+```http
 POST https://{{host}}/api/Auth/login?username=pesekt&password=123456
 
 > {% client.global.set("auth_token", response.body.token);
@@ -336,3 +351,6 @@ client.test("JWT acquired successfully", function() {
 %}
 ```
 
+### Entity Framework Power Tools
+
+[EF Power Tools](https://marketplace.visualstudio.com/items?itemName=ErikEJ.EntityFramework6PowerToolsCommunityEdition)

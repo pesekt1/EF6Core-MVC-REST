@@ -23,6 +23,7 @@
           <e p="httpRequests.http" t="Include" />
         </e>
         <e p="img" t="Include">
+          <e p="env.png" t="Include" />
           <e p="swagger.png" t="Include" />
         </e>
         <e p="Migrations" t="Include">
