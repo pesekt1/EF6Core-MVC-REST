@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Metadata;
 
 namespace MVCCore.Models2
 {
-    public partial class SchoolContext6Context : DbContext
+    public partial class SchoolContext6Context : Microsoft.EntityFrameworkCore.DbContext
     {
         public SchoolContext6Context()
         {

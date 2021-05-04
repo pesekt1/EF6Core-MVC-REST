@@ -29,4 +29,25 @@
     <Folder Include="sql" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Compile Remove="Models2\**" />
+    <Compile Remove="CodeTemplates\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Remove="Models2\**" />
+    <EmbeddedResource Remove="CodeTemplates\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Models2\**" />
+    <None Remove="CodeTemplates\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="Models2\**" />
+    <Content Remove="efpt.config.json" />
+    <Content Remove="CodeTemplates\**" />
+  </ItemGroup>
+
 </Project>

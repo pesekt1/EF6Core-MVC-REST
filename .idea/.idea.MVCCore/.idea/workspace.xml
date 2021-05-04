@@ -14,9 +14,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1303173-d1d9-48f5-b7a2-edf9b07b40f5" name="Default Changelist" comment="-">
-      <change afterPath="$PROJECT_DIR$/MVCCore/HttpRequests/http-client.env.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MVCCore/HttpRequests/httpRequests.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/HttpRequests/http-client.env.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/CodeTemplates/EFModelFromDatabase/Context.cs.t4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/CodeTemplates/EFModelFromDatabase/EntityType.cs.t4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/Models/Role.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/Models/User.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/Models/UserRoles.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/Rest Controllers/AuthController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/Rest Controllers/RolesRestController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/Rest Controllers/UsersRestController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/Services/AuthService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/Services/RolesService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/Services/UsersService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/Utils/utils.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/efpt.config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/todo list.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MVCCore/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MVCCore/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MVCCore/.idea/dataSources/5fd3faef-1182-4f30-8949-f5128974ab36.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MVCCore/.idea/dataSources/5fd3faef-1182-4f30-8949-f5128974ab36.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MVCCore/.idea/dataSources/5fd3faef-1182-4f30-8949-f5128974ab36/storage_v2/_src_/database/EF6MVCCore.JDHSyw/schema/INFORMATION_SCHEMA.NBgcMw.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MVCCore/.idea/dataSources/5fd3faef-1182-4f30-8949-f5128974ab36/storage_v2/_src_/database/EF6MVCCore.JDHSyw/schema/INFORMATION_SCHEMA.NBgcMw.meta" afterDir="false" />
@@ -25,28 +36,41 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MVCCore/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MVCCore/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.vs/MVCCore/DesignTimeBuild/.dtbcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/MVCCore/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.vs/MVCCore/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/MVCCore/v16/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/Controllers/StudentsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/Controllers/StudentsController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/DbContext/SchoolContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/DbContext/SchoolContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/DbContext/SchoolContextFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/DbContext/SchoolContextFactory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/HttpRequests/httpRequests.http" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/HttpRequests/httpRequests.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVCCore/MVCCore.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/MVCCore.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVCCore/Migrations/202008170448151_Initial.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/Migrations/202008170448151_Initial.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/Migrations/Configuration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/Migrations/Configuration.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVCCore/Models/Course.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/Models/Course.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/Models/Enrollment.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/Models/Enrollment.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVCCore/Models/Student.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/Models/Student.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/Models2/SchoolContext6Context.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/Models2/SchoolContext6Context.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/Options/AuthFailedResponse.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/Options/AuthFailedResponse.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/Options/AuthSuccessResponse.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/Options/AuthSuccessResponse.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/Options/AuthenticationResult.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/Options/AuthenticationResult.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/Options/JwtSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/Options/JwtSettings.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVCCore/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/Properties/launchSettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVCCore/Rest Controllers/CoursesRestController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/Rest Controllers/CoursesRestController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVCCore/Rest Controllers/StudentsRestController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/Rest Controllers/StudentsRestController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVCCore/Services/CoursesService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/Services/CoursesService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVCCore/Services/StudentsService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/Services/StudentsService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/appsettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/MVCCore.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/MVCCore.Views.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/MVCCore.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/MVCCore.Views.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/MVCCore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/MVCCore.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/MVCCore.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/MVCCore.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/appsettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/ref/MVCCore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/ref/MVCCore.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp5.0/MVCCore.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp5.0/MVCCore.Views.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp5.0/MVCCore.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp5.0/MVCCore.Views.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp5.0/MVCCore.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp5.0/MVCCore.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp5.0/MVCCore.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp5.0/MVCCore.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp5.0/MVCCore.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp5.0/MVCCore.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp5.0/MVCCore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp5.0/MVCCore.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp5.0/MVCCore.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp5.0/MVCCore.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp5.0/ref/MVCCore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp5.0/ref/MVCCore.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVCCore/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,42 +89,66 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/F680C866-D120-4163-9634-EBD842255BE9/194/ObjectMethodExecutor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MVCCore/Models2/Department.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/AD61CA47-F8B7-4CC6-93A0-BA44CC73B5C7/16F/TaskContinuation.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MVCCore/efpt.config.json" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MVCCore/Models2/SchoolContext6Context.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MVCCore/Models2/Enrollment.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/MVCCore/Controllers/CoursesController.cs" />
         <option value="$PROJECT_DIR$/MVCCore/Models/ErrorViewModel.cs" />
         <option value="$PROJECT_DIR$/MVCCore/Views/Shared/Error.cshtml" />
-        <option value="$PROJECT_DIR$/MVCCore/DbContext/SchoolContextFactory.cs" />
         <option value="$PROJECT_DIR$/MVCCore/Views/Students/Create.cshtml" />
         <option value="$PROJECT_DIR$/MVCCore/Views/Students/Delete.cshtml" />
         <option value="$PROJECT_DIR$/MVCCore/Views/Students/Details.cshtml" />
         <option value="$PROJECT_DIR$/MVCCore/Views/Students/Edit.cshtml" />
         <option value="$PROJECT_DIR$/MVCCore/Views/Students/Index.cshtml" />
-        <option value="$PROJECT_DIR$/MVCCore/Controllers/StudentsController.cs" />
-        <option value="$PROJECT_DIR$/MVCCore/DbContext/SchoolContext.cs" />
-        <option value="$PROJECT_DIR$/MVCCore/Migrations/Configuration.cs" />
         <option value="$PROJECT_DIR$/MVCCore/Controllers/HomeController.cs" />
-        <option value="$PROJECT_DIR$/MVCCore/Models/Enrollment.cs" />
         <option value="/936041f8/5fd3faef-1182-4f30-8949-f5128974ab36/database/EF6MVCCore/schema/dbo/routine/sp_createStudent.sql" />
-        <option value="$PROJECT_DIR$/MVCCore/readme.md" />
-        <option value="$PROJECT_DIR$/MVCCore/appsettings.json" />
-        <option value="$PROJECT_DIR$/MVCCore/Properties/launchSettings.json" />
         <option value="$PROJECT_DIR$/MVCCore/HttpRequests/http-client.env.json" />
-        <option value="$PROJECT_DIR$/MVCCore/Startup.cs" />
-        <option value="$PROJECT_DIR$/MVCCore/Rest Controllers/StudentsRestController.cs" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/5fd3faef-1182-4f30-8949-f5128974ab36/console_2.sql" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/5fd3faef-1182-4f30-8949-f5128974ab36/console_4.sql" />
         <option value="$PROJECT_DIR$/MVCCore/Migrations/202008170448151_Initial.cs" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/5fd3faef-1182-4f30-8949-f5128974ab36/console_5.sql" />
-        <option value="$PROJECT_DIR$/MVCCore/Models/Student.cs" />
-        <option value="$PROJECT_DIR$/MVCCore/Models/Course.cs" />
-        <option value="$PROJECT_DIR$/MVCCore/Services/CoursesService.cs" />
         <option value="$PROJECT_DIR$/MVCCore/Rest Controllers/CoursesRestController.cs" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/5fd3faef-1182-4f30-8949-f5128974ab36/console_8.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/5fd3faef-1182-4f30-8949-f5128974ab36/console_10.sql" />
+        <option value="$PROJECT_DIR$/MVCCore/Models2/SchoolContext6Context.cs" />
+        <option value="$PROJECT_DIR$/MVCCore/DbContext/Ef6mvccoreContext.cs" />
+        <option value="$PROJECT_DIR$/MVCCore/Rest Controllers/UsersRestController.cs" />
+        <option value="$PROJECT_DIR$/MVCCore/DbContext/SchoolContext.cs" />
+        <option value="$PROJECT_DIR$/MVCCore/Migrations/Configuration.cs" />
+        <option value="$PROJECT_DIR$/MVCCore/Services/CoursesService.cs" />
+        <option value="$PROJECT_DIR$/MVCCore/Services/RolesService.cs" />
         <option value="$PROJECT_DIR$/MVCCore/Services/StudentsService.cs" />
+        <option value="$PROJECT_DIR$/MVCCore/Controllers/StudentsController.cs" />
+        <option value="$PROJECT_DIR$/MVCCore/Rest Controllers/StudentsRestController.cs" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/5fd3faef-1182-4f30-8949-f5128974ab36/console_11.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/5fd3faef-1182-4f30-8949-f5128974ab36/console_12.sql" />
+        <option value="$PROJECT_DIR$/MVCCore/Models/UserRoles.cs" />
+        <option value="$PROJECT_DIR$/MVCCore/Options/JwtSettings.cs" />
+        <option value="$PROJECT_DIR$/MVCCore/Options/AuthSuccessResponse.cs" />
+        <option value="$PROJECT_DIR$/MVCCore/Options/AuthFailedResponse.cs" />
+        <option value="$PROJECT_DIR$/MVCCore/Options/AuthenticationResult.cs" />
+        <option value="$PROJECT_DIR$/MVCCore/Services/UsersService.cs" />
+        <option value="$PROJECT_DIR$/MVCCore/Rest Controllers/RolesRestController.cs" />
+        <option value="$PROJECT_DIR$/MVCCore/readme.md" />
+        <option value="$PROJECT_DIR$/MVCCore/Properties/launchSettings.json" />
+        <option value="$PROJECT_DIR$/MVCCore/DbContext/SchoolContextFactory.cs" />
+        <option value="$PROJECT_DIR$/MVCCore/Models/User.cs" />
+        <option value="$PROJECT_DIR$/MVCCore/Models/Student.cs" />
+        <option value="$PROJECT_DIR$/MVCCore/Models/Role.cs" />
+        <option value="$PROJECT_DIR$/MVCCore/Models/Enrollment.cs" />
+        <option value="$PROJECT_DIR$/MVCCore/Models/Course.cs" />
+        <option value="$PROJECT_DIR$/MVCCore/Rest Controllers/AuthController.cs" />
+        <option value="$PROJECT_DIR$/MVCCore/Services/AuthService.cs" />
+        <option value="$PROJECT_DIR$/MVCCore/Utils/utils.cs" />
         <option value="$PROJECT_DIR$/MVCCore/HttpRequests/httpRequests.http" />
+        <option value="$PROJECT_DIR$/MVCCore/todo list.txt" />
+        <option value="$PROJECT_DIR$/MVCCore/appsettings.json" />
+        <option value="$PROJECT_DIR$/MVCCore/Startup.cs" />
       </list>
     </option>
   </component>
@@ -126,6 +174,202 @@
   <component name="RestClientSettings">
     <option name="REQUEST_HISTORY">
       <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="https://localhost:5558/api/users" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;email&quot;: &quot;pesekt@gmail.com&quot;,&#10;  &quot;password&quot;: &quot;123456&quot;,&#10;  &quot;userName&quot;: &quot;pesekt&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="https://localhost:5558/api/users" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;email&quot;: &quot;pesekt1@gmail.com&quot;,&#10;  &quot;password&quot;: &quot;123456&quot;,&#10;  &quot;userName&quot;: &quot;pesekt&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="https://localhost:5558/api/users" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;email&quot;: &quot;pesekt1@gmail.com&quot;,&#10;  &quot;password&quot;: &quot;12345678&quot;,&#10;  &quot;userName&quot;: &quot;pesekt1&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="https://localhost:5558/api/Auth/login" />
+          <option name="urlPath" value="" />
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="username" />
+                <option name="value" value="pesekt" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="password" />
+                <option name="value" value="123456" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="https://localhost:5558/api/Auth/login" />
+          <option name="urlPath" value="" />
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="username" />
+                <option name="value" value="pesekt1000" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="password" />
+                <option name="value" value="123456" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="https://localhost:5558/api/users" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;email&quot;: &quot;pesekt1000@gmail.com&quot;,&#10;  &quot;password&quot;: &quot;123456&quot;,&#10;  &quot;userName&quot;: &quot;pesekt1000&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="https://localhost:5558/api/users" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;email&quot;: &quot;pesekt100@gmail.com&quot;,&#10;  &quot;password&quot;: &quot;123456&quot;,&#10;  &quot;userName&quot;: &quot;pesekt100&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="https://localhost:5558/api/users" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;email&quot;: &quot;pesekt10@gmail.com&quot;,&#10;  &quot;password&quot;: &quot;123456&quot;,&#10;  &quot;userName&quot;: &quot;pesekt10&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="https://localhost:5558/api/roles" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Authorization" />
+                <option name="value" value="Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwZXNAZ21haWwuY29tIiwianRpIjoiMjE3NThjZWQtNWVhMC00NGY3LWJmNjgtM2M4OTM5YzZiNzQ0IiwiZW1haWwiOiJwZXNAZ21haWwuY29tIiwibmJmIjoxNjIwMTUwODUyLCJleHAiOjE2MjAxNTgwNTIsImlhdCI6MTYyMDE1MDg1Mn0.BqY-0nA-yWh34S0XLxyQ7ora0kH9KqvrZVTM9Vi7IQE" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="https://localhost:5558/api/roles" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Authorization" />
+                <option name="value" value="Bearer {{token}}" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="https://localhost:5558/api/roles" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;name&quot;: &quot;customer&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="https://localhost:5558/api/roles" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="https://localhost:5558/api/users" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
         <RestClientRequest>
           <option name="httpMethod" value="PUT" />
           <option name="urlBase" value="https://localhost:5558/api/students/15" />
@@ -277,24 +521,24 @@
     </option>
   </component>
   <component name="RunManager" selected=".NET Launch Settings Profile.MVCCore">
-    <configuration name="httpRequests#2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/MVCCore/HttpRequests/httpRequests.http" index="2" runType="Run single request">
+    <configuration name="httpRequests#10" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/MVCCore/HttpRequests/httpRequests.http" index="10" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="httpRequests#3" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/MVCCore/HttpRequests/httpRequests.http" index="3" runType="Run single request">
+    <configuration name="httpRequests#11" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/MVCCore/HttpRequests/httpRequests.http" index="11" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="httpRequests#4" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/MVCCore/HttpRequests/httpRequests.http" index="4" runType="Run single request">
+    <configuration name="httpRequests#12" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/MVCCore/HttpRequests/httpRequests.http" index="12" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="httpRequests#5" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/MVCCore/HttpRequests/httpRequests.http" index="5" runType="Run single request">
+    <configuration name="httpRequests#13" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/MVCCore/HttpRequests/httpRequests.http" index="13" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="httpRequests#8" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/MVCCore/HttpRequests/httpRequests.http" index="8" runType="Run single request">
+    <configuration name="httpRequests#14" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/MVCCore/HttpRequests/httpRequests.http" index="14" runType="Run single request">
       <method v="2" />
     </configuration>
     <configuration name="MVCCore" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/MVCCore/MVCCore.csproj" />
-      <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v3.1" />
+      <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v5.0" />
       <option name="LAUNCH_PROFILE_NAME" value="MVCCore" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="USE_MONO" value="0" />
@@ -322,13 +566,22 @@
         <option name="Build" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue=".NET Launch Settings Profile.MVCCore" />
+      <item itemvalue=".NET Launch Settings Profile.MVCCore: IIS Express" />
+      <item itemvalue="HTTP Request.httpRequests#10" />
+      <item itemvalue="HTTP Request.httpRequests#11" />
+      <item itemvalue="HTTP Request.httpRequests#12" />
+      <item itemvalue="HTTP Request.httpRequests#13" />
+      <item itemvalue="HTTP Request.httpRequests#14" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="HTTP Request.httpRequests#8" />
-        <item itemvalue="HTTP Request.httpRequests#4" />
-        <item itemvalue="HTTP Request.httpRequests#3" />
-        <item itemvalue="HTTP Request.httpRequests#5" />
-        <item itemvalue="HTTP Request.httpRequests#2" />
+        <item itemvalue="HTTP Request.httpRequests#10" />
+        <item itemvalue="HTTP Request.httpRequests#13" />
+        <item itemvalue="HTTP Request.httpRequests#14" />
+        <item itemvalue="HTTP Request.httpRequests#12" />
+        <item itemvalue="HTTP Request.httpRequests#11" />
       </list>
     </recent_temporary>
   </component>
@@ -354,7 +607,8 @@
       <workItem from="1620046863105" duration="42000" />
       <workItem from="1620048013834" duration="212000" />
       <workItem from="1620048792112" duration="10544000" />
-      <workItem from="1620123670018" duration="2762000" />
+      <workItem from="1620123670018" duration="9208000" />
+      <workItem from="1620138505729" duration="13293000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1619005230412</created>
@@ -461,7 +715,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620049639712</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="-">
+      <created>1620130590738</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1620130590738</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -488,127 +749,131 @@
     <MESSAGE value="scaffolding" />
     <MESSAGE value="swagger" />
     <MESSAGE value="changed namespace" />
-    <MESSAGE value="-" />
     <MESSAGE value="added security" />
-    <option name="LAST_COMMIT_MESSAGE" value="added security" />
+    <MESSAGE value="-" />
+    <option name="LAST_COMMIT_MESSAGE" value="-" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="551" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1619437417622">
+    <state x="894" y="311" key="#Web_Browsers" timestamp="1620152224524">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="551" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1619437417622" />
-    <state width="1875" height="354" key="GridCell.Tab.0.bottom" timestamp="1620130548828">
+    <state x="894" y="311" key="#Web_Browsers/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620152224524" />
+    <state x="780" y="296" width="1094" height="636" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1620152509824">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="780" y="296" width="1094" height="636" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620152509824" />
+    <state width="1875" height="368" key="GridCell.Tab.0.bottom" timestamp="1620156287773">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1875" height="251" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1620039248742" />
-    <state width="1875" height="354" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620130548828" />
-    <state width="1875" height="354" key="GridCell.Tab.0.center" timestamp="1620130548828">
+    <state width="1875" height="368" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620156287773" />
+    <state width="1875" height="368" key="GridCell.Tab.0.center" timestamp="1620156287772">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1875" height="251" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1620039248742" />
-    <state width="1875" height="354" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620130548828" />
-    <state width="1875" height="354" key="GridCell.Tab.0.left" timestamp="1620130548828">
+    <state width="1875" height="368" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620156287772" />
+    <state width="1875" height="368" key="GridCell.Tab.0.left" timestamp="1620156287772">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1875" height="251" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1620039248742" />
-    <state width="1875" height="354" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620130548828" />
-    <state width="1875" height="354" key="GridCell.Tab.0.right" timestamp="1620130548828">
+    <state width="1875" height="368" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620156287772" />
+    <state width="1875" height="368" key="GridCell.Tab.0.right" timestamp="1620156287773">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1875" height="251" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1620039248742" />
-    <state width="1875" height="354" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620130548828" />
-    <state width="1875" height="374" key="GridCell.Tab.1.bottom" timestamp="1619474147865">
+    <state width="1875" height="368" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620156287773" />
+    <state width="1875" height="374" key="GridCell.Tab.1.bottom" timestamp="1620149981808">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="374" key="GridCell.Tab.1.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1619474147865" />
-    <state width="1875" height="374" key="GridCell.Tab.1.center" timestamp="1619474147865">
+    <state width="1875" height="374" key="GridCell.Tab.1.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620149981808" />
+    <state width="1875" height="374" key="GridCell.Tab.1.center" timestamp="1620149981807">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="374" key="GridCell.Tab.1.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1619474147865" />
-    <state width="1875" height="374" key="GridCell.Tab.1.left" timestamp="1619474147865">
+    <state width="1875" height="374" key="GridCell.Tab.1.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620149981807" />
+    <state width="1875" height="374" key="GridCell.Tab.1.left" timestamp="1620149981807">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="374" key="GridCell.Tab.1.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1619474147865" />
-    <state width="1875" height="374" key="GridCell.Tab.1.right" timestamp="1619474147865">
+    <state width="1875" height="374" key="GridCell.Tab.1.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620149981807" />
+    <state width="1875" height="374" key="GridCell.Tab.1.right" timestamp="1620149981808">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="374" key="GridCell.Tab.1.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1619474147865" />
-    <state width="1875" height="374" key="GridCell.Tab.2.bottom" timestamp="1619474147865">
+    <state width="1875" height="374" key="GridCell.Tab.1.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620149981808" />
+    <state width="1875" height="374" key="GridCell.Tab.2.bottom" timestamp="1620149981808">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="374" key="GridCell.Tab.2.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1619474147865" />
-    <state width="1875" height="374" key="GridCell.Tab.2.center" timestamp="1619474147865">
+    <state width="1875" height="374" key="GridCell.Tab.2.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620149981808" />
+    <state width="1875" height="374" key="GridCell.Tab.2.center" timestamp="1620149981808">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="374" key="GridCell.Tab.2.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1619474147865" />
-    <state width="1875" height="374" key="GridCell.Tab.2.left" timestamp="1619474147865">
+    <state width="1875" height="374" key="GridCell.Tab.2.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620149981808" />
+    <state width="1875" height="374" key="GridCell.Tab.2.left" timestamp="1620149981808">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="374" key="GridCell.Tab.2.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1619474147865" />
-    <state width="1875" height="374" key="GridCell.Tab.2.right" timestamp="1619474147865">
+    <state width="1875" height="374" key="GridCell.Tab.2.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620149981808" />
+    <state width="1875" height="374" key="GridCell.Tab.2.right" timestamp="1620149981808">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="374" key="GridCell.Tab.2.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1619474147865" />
-    <state width="1875" height="374" key="GridCell.Tab.3.bottom" timestamp="1619474147866">
+    <state width="1875" height="374" key="GridCell.Tab.2.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620149981808" />
+    <state width="1875" height="374" key="GridCell.Tab.3.bottom" timestamp="1620149981808">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="374" key="GridCell.Tab.3.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1619474147866" />
-    <state width="1875" height="374" key="GridCell.Tab.3.center" timestamp="1619474147866">
+    <state width="1875" height="374" key="GridCell.Tab.3.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620149981808" />
+    <state width="1875" height="374" key="GridCell.Tab.3.center" timestamp="1620149981808">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="374" key="GridCell.Tab.3.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1619474147866" />
-    <state width="1875" height="374" key="GridCell.Tab.3.left" timestamp="1619474147866">
+    <state width="1875" height="374" key="GridCell.Tab.3.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620149981808" />
+    <state width="1875" height="374" key="GridCell.Tab.3.left" timestamp="1620149981808">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="374" key="GridCell.Tab.3.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1619474147866" />
-    <state width="1875" height="374" key="GridCell.Tab.3.right" timestamp="1619474147866">
+    <state width="1875" height="374" key="GridCell.Tab.3.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620149981808" />
+    <state width="1875" height="374" key="GridCell.Tab.3.right" timestamp="1620149981808">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="374" key="GridCell.Tab.3.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1619474147866" />
-    <state width="1875" height="374" key="GridCell.Tab.4.bottom" timestamp="1619474147867">
+    <state width="1875" height="374" key="GridCell.Tab.3.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620149981808" />
+    <state width="1875" height="374" key="GridCell.Tab.4.bottom" timestamp="1620149981808">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="374" key="GridCell.Tab.4.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1619474147867" />
-    <state width="1875" height="374" key="GridCell.Tab.4.center" timestamp="1619474147866">
+    <state width="1875" height="374" key="GridCell.Tab.4.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620149981808" />
+    <state width="1875" height="374" key="GridCell.Tab.4.center" timestamp="1620149981808">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="374" key="GridCell.Tab.4.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1619474147866" />
-    <state width="1875" height="374" key="GridCell.Tab.4.left" timestamp="1619474147866">
+    <state width="1875" height="374" key="GridCell.Tab.4.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620149981808" />
+    <state width="1875" height="374" key="GridCell.Tab.4.left" timestamp="1620149981808">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="374" key="GridCell.Tab.4.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1619474147866" />
-    <state width="1875" height="374" key="GridCell.Tab.4.right" timestamp="1619474147867">
+    <state width="1875" height="374" key="GridCell.Tab.4.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620149981808" />
+    <state width="1875" height="374" key="GridCell.Tab.4.right" timestamp="1620149981808">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="374" key="GridCell.Tab.4.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1619474147867" />
+    <state width="1875" height="374" key="GridCell.Tab.4.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620149981808" />
     <state width="274" height="463" key="HiddenNamespacesPopup" timestamp="1619437438868">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="274" height="463" key="HiddenNamespacesPopup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1619437438868" />
-    <state x="669" y="196" key="RiderGenerateDialog" timestamp="1620124308278">
+    <state x="669" y="196" key="RiderGenerateDialog" timestamp="1620138693663">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="669" y="196" key="RiderGenerateDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620124308278" />
-    <state x="551" y="252" key="Vcs.Push.Dialog.v2" timestamp="1620049645364">
+    <state x="669" y="196" key="RiderGenerateDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620138693663" />
+    <state x="551" y="252" key="Vcs.Push.Dialog.v2" timestamp="1620130599507">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="551" y="252" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620049645364" />
+    <state x="551" y="252" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620130599507" />
     <state width="968" height="528" key="XDebugger.FullValuePopup" timestamp="1619441930084">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="968" height="528" key="XDebugger.FullValuePopup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1619441930084" />
-    <state x="824" y="209" width="318" height="421" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1620123960159">
+    <state x="824" y="209" width="318" height="421" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1620139041301">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="824" y="209" width="318" height="421" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620123960159" />
-    <state x="755" y="339" width="410" height="353" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog" timestamp="1619471175309">
+    <state x="824" y="209" width="318" height="421" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620139041301" />
+    <state x="755" y="339" width="410" height="349" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog" timestamp="1620132899610">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="755" y="339" width="410" height="353" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1619471175309" />
-    <state x="817" y="222" width="663" height="456" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1620118645693">
+    <state x="755" y="339" width="410" height="349" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620132899610" />
+    <state x="817" y="66" width="663" height="612" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1620155458170">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="817" y="222" width="663" height="456" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620118645693" />
+    <state x="817" y="66" width="663" height="612" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620155458170" />
     <state x="760" y="425" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1619005255554">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

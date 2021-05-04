@@ -1,4 +1,5 @@
-﻿using System.Text.Json.Serialization;
+﻿using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 
 namespace MVCCore.Models
 {
@@ -7,6 +8,7 @@ namespace MVCCore.Models
         A, B, C, D, F
     }
 
+    [Table("Enrollment")]
     public class Enrollment
     {
         public int EnrollmentID { get; set; }

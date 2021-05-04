@@ -1,3 +1,4 @@
+using System;
 using System.Text;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
@@ -6,8 +7,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.IdentityModel.Tokens;
+using MVCCore.DbContext;
 using MVCCore.Services;
-using SportStore.Options;
 
 namespace MVCCore
 {
@@ -18,27 +19,27 @@ namespace MVCCore
             Configuration = configuration;
         }
 
-        public IConfiguration Configuration { get; }
-
-        // register the services
+        private IConfiguration Configuration { get; }
+        
         public void ConfigureServices(IServiceCollection services)
         {
-            //try this: services.AddControllers();
-            
+            services.AddControllers();
             services.AddControllersWithViews();
+            
+            // services.AddScoped<SchoolContext>(_ => 
+            //     new SchoolContext(Configuration.GetConnectionString("DefaultConnection")));
             services.AddScoped<SchoolContext>(_ => 
-                new SchoolContext(Configuration.GetConnectionString("DefaultConnection")));
+                new SchoolContext(Environment.GetEnvironmentVariable("DB_URL")));
+            
             services.AddScoped<CoursesService>();
             services.AddScoped<StudentsService>();
+            services.AddScoped<RolesService>();
+            services.AddScoped<UsersService>();
+            services.AddScoped<AuthService>();
+            
+            services.AddSwaggerGen(); // Register the Swagger generator, defining 1 or more Swagger documents
 
-            // Register the Swagger generator, defining 1 or more Swagger documents
-            services.AddSwaggerGen();
-            
-            //security
-            var jwtSettings = new JwtSettings();
-            Configuration.Bind(key: nameof(jwtSettings),jwtSettings);
-            services.AddSingleton(jwtSettings);
-            
+            //using JWT - Json Web Token
             services.AddAuthentication(configureOptions: x =>
                 {
                     x.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
@@ -51,15 +52,13 @@ namespace MVCCore
                     x.TokenValidationParameters = new TokenValidationParameters
                     {
                         ValidateIssuerSigningKey = true,
-                        IssuerSigningKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes(jwtSettings.Secret)),
+                        IssuerSigningKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes(Environment.GetEnvironmentVariable("JWT_SECRET"))),
                         ValidateIssuer = false,
                         ValidateAudience = false,
                         RequireExpirationTime = false,
                         ValidateLifetime = true
                     };
                 });
-            
-            
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -75,11 +74,8 @@ namespace MVCCore
             }
             app.UseHttpsRedirection();
             app.UseStaticFiles();
-
             app.UseRouting();
-
             app.UseAuthentication();
-            
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
@@ -88,15 +84,14 @@ namespace MVCCore
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
             });
-
-            // Enable middleware to serve generated Swagger as a JSON endpoint.
-            app.UseSwagger();
+            
+            app.UseSwagger(); // Enable middleware to serve generated Swagger as a JSON endpoint.
 
             // Enable middleware to serve swagger-ui (HTML, JS, CSS, etc.),
             // specifying the Swagger JSON endpoint.
             app.UseSwaggerUI(c =>
             {
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API");
             });
         }
     }

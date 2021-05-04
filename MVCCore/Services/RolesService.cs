@@ -9,50 +9,50 @@ using MVCCore.Models;
 
 namespace MVCCore.Services
 {
-    public class CoursesService: ControllerBase
+    public class RolesService: ControllerBase
     {
         private readonly SchoolContext _context;
         
-        public CoursesService(SchoolContext context)
+        public RolesService(SchoolContext context)
         {
             _context = context;
         }
 
-        public async Task<ActionResult<IEnumerable<Course>>> GetCourses()
+        public async Task<ActionResult<IEnumerable<Role>>> GetRoles()
         {
-            return await _context.Courses.ToListAsync();
+            return await _context.Roles.ToListAsync();
         }
         
-        public async Task<ActionResult<Course>> CreateCourse(Course course)
+        public async Task<ActionResult<Role>> CreateRole(Role role)
         {
-            _context.Courses.Add(course);
+            _context.Roles.Add(role);
             await _context.SaveChangesAsync();
             
-            return CreatedAtAction(nameof(CreateCourse), new { id = course.CourseID }, course);
+            return CreatedAtAction(nameof(CreateRole), new { id = role.Id }, role);
         }
         
-        public async Task<ActionResult<Course>> DeleteCourse(long id)
+        public async Task<ActionResult<Role>> DeleteRole(long id)
         {
-            var course = await _context.Courses.FindAsync(id);
-            if (course == null)
+            var role = await _context.Roles.FindAsync(id);
+            if (role == null)
             {
                 return NotFound();
             }
 
-            _context.Courses.Remove(course);
+            _context.Roles.Remove(role);
             await _context.SaveChangesAsync();
 
-            return course;
+            return role;
         }
         
-        public async Task<ActionResult<Course>> UpdateCourse(long id, Course course)
+        public async Task<ActionResult<Role>> UpdateRole(long id, Role role)
         {
-            if (id != course.CourseID)
+            if (id != role.Id)
             {
                 return BadRequest();
             }
 
-            _context.Entry(course).State = EntityState.Modified;
+            _context.Entry(role).State = EntityState.Modified;
 
             try
             {
@@ -60,7 +60,7 @@ namespace MVCCore.Services
             }
             catch (DbUpdateConcurrencyException)
             {
-                if (!CourseExists(id))
+                if (!RoleExists(id))
                 {
                     return NotFound();
                 }
@@ -71,12 +71,12 @@ namespace MVCCore.Services
             }
 
             //return NoContent();
-            return await _context.Courses.FindAsync(id);
+            return await _context.Roles.FindAsync(id);
         }
         
-        private bool CourseExists(long id)
+        private bool RoleExists(long id)
         {
-            return _context.Courses.Any(e => e.CourseID == id);
+            return _context.Roles.Any(e => e.Id == id);
         }
     }
 }

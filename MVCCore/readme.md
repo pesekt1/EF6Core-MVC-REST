@@ -244,3 +244,95 @@ go
             return View(await _context.Students.ToListAsync());
         }
 ```
+
+### Security
+
+- After login, user acquires a JWT - JSON Web Token.
+- The token can be used to access endpoints which require it.
+```c#
+        [HttpPost]
+        [Route("login")]
+        public async Task<IActionResult> login(string username, string password)
+        {
+            var userDetails =  await _authService.Login(username, password);
+            if (userDetails == null)
+            {
+                //ModelState.AddModelError("Password", "Invalid login attempt.");
+                return StatusCode(StatusCodes.Status400BadRequest, new { message = "error occurred, incorrect user name or password" });
+            }
+            //HttpContext.Session.SetString("userId", customerDetails.Firstname);
+            return Ok(new AuthSuccessResponse { 
+                Token = userDetails.Token
+            });
+        }
+```
+
+Data encryption:
+```c#
+        public static string Encryptdata(string text)
+        {
+            string strmsg = string.Empty;
+            byte[] encode = new byte[text.Length];
+            encode = Encoding.UTF8.GetBytes(text);
+            strmsg = Convert.ToBase64String(encode);
+            return strmsg;
+        }
+```
+
+Compare the credentials - we need to decrypt the saved password:
+```c#
+        public async Task<AuthenticationResult> Login(string username, string password)
+        {
+            var encPassword = Utils.Encryptdata(password);
+            //var decPassword = Utils.Decryptdata(encPassword);
+            User user =  _context.Users.SingleOrDefault(m => m.UserName == username && m.Password == encPassword);
+            if (user == null)
+            {
+                return null;
+            }
+            return GenerateToken(user);
+        }
+```
+
+Generate JWT:
+```c#
+        private AuthenticationResult GenerateToken(User user)
+        {
+            var tokenHandler = new JwtSecurityTokenHandler();
+            var key = Encoding.ASCII.GetBytes(_jwtSettings.Secret);
+            var tokenDescriptor = new SecurityTokenDescriptor
+            {
+                Subject = new ClaimsIdentity(new[]
+                {
+                    new Claim(JwtRegisteredClaimNames.Sub, value: user.Email),
+                    new Claim(JwtRegisteredClaimNames.Jti, value: Guid.NewGuid().ToString()),
+                    new Claim(JwtRegisteredClaimNames.Email, value: user.Email)
+                }),
+                Expires = DateTime.UtcNow.AddHours(2),
+                SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature)
+            };
+
+            var token = tokenHandler.CreateToken(tokenDescriptor);
+
+            return new AuthenticationResult
+            {
+                Success = true,
+                Token = tokenHandler.WriteToken(token)
+            };
+        }
+```
+
+HttpRequest for login:
+```http request
+POST https://{{host}}/api/Auth/login?username=pesekt&password=123456
+
+> {% client.global.set("auth_token", response.body.token);
+client.test("Request executed successfully", function() {
+  client.assert(response.status === 200, "Response status is not 200");
+});
+client.test("JWT acquired successfully", function() {
+  client.assert(response.body.token != null, "JWT not acquired");
+});
+%}
+```
+

@@ -58,40 +58,53 @@ Content-Type: application/json
 }
 
 
+########################## users ##########################
 
-######################################################
+### get users
+GET https://{{host}}/api/users
 
-
-### registration of a new user -> users table
-POST http://localhost:5557/api/auth/signup
+### create new user record - registration
+POST https://{{host}}/api/users HTTP/1.1
 Content-Type: application/json
 
 {
-  "username": "pesekt100",
-  "email": "pesekt100@gmail.com",
-  "password": "12345678"
+  "email": "pesekt@gmail.com",
+  "password": "123456",
+  "userName": "pesekt"
 }
+
+######################### roles #############################
+
+### get users
+GET https://{{host}}/api/roles
+
+### create new user record
+POST https://{{host}}/api/roles HTTP/1.1
+Content-Type: application/json
+
+{
+  "name": "customer"
+}
+
+
+############################# security #############################
 
 ### login with credentials, we get a JWT and save it in client.global - session variable auth_token
-POST http://localhost:5557/api/auth/signin
-Content-Type: application/json
+POST https://{{host}}/api/Auth/login?username=pesekt&password=123456
 
-{
-  "username": "pesekt",
-  "password": "12345678"
-}
-
-> {% client.global.set("auth_token", response.body.accessToken);
+> {% client.global.set("auth_token", response.body.token);
 client.test("Request executed successfully", function() {
   client.assert(response.status === 200, "Response status is not 200");
 });
 client.test("JWT acquired successfully", function() {
-  client.assert(response.body.accessToken != null, "JWT not acquired");
+  client.assert(response.body.token != null, "JWT not acquired");
 });
 %}
 
-### request with JWT authorizaton, we need to login and then use the JWT
-GET http://localhost:5557/api/tutorials HTTP/1.1
+
+
+### request with JWT authorizaton, we need to login and then use the JWT to access this endpoint
+GET https://{{host}}/api/roles HTTP/1.1
 Authorization: Bearer {{auth_token}}
 
 > {%

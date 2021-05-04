@@ -12,12 +12,10 @@ namespace MVCCore.Rest_Controllers
     [ApiController]
     public class StudentsController : ControllerBase
     {
-        //private readonly SchoolContext _context;
         private readonly StudentsService _studentsService;
 
         public StudentsController( StudentsService studentsService)
         {
-          //  _context = context;
             _studentsService = studentsService;
         }
 

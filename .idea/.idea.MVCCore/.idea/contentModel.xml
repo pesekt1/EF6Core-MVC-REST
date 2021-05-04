@@ -35,17 +35,10 @@
           <e p="Course.cs" t="Include" />
           <e p="Enrollment.cs" t="Include" />
           <e p="ErrorViewModel.cs" t="Include" />
+          <e p="Role.cs" t="Include" />
           <e p="Student.cs" t="Include" />
-        </e>
-        <e p="Models2" t="Include">
-          <e p="Course.cs" t="Include" />
-          <e p="CourseAssignment.cs" t="Include" />
-          <e p="Department.cs" t="Include" />
-          <e p="Enrollment.cs" t="Include" />
-          <e p="Instructor.cs" t="Include" />
-          <e p="OfficeAssignment.cs" t="Include" />
-          <e p="SchoolContext6Context.cs" t="Include" />
-          <e p="Student.cs" t="Include" />
+          <e p="User.cs" t="Include" />
+          <e p="UserRoles.cs" t="Include" />
         </e>
         <e p="MVCCore.csproj" t="IncludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
@@ -68,15 +61,25 @@
         </e>
         <e p="readme.md" t="Include" />
         <e p="Rest Controllers" t="Include">
+          <e p="AuthController.cs" t="Include" />
           <e p="CoursesRestController.cs" t="Include" />
+          <e p="RolesRestController.cs" t="Include" />
           <e p="StudentsRestController.cs" t="Include" />
+          <e p="UsersRestController.cs" t="Include" />
         </e>
         <e p="Services" t="Include">
+          <e p="AuthService.cs" t="Include" />
           <e p="CoursesService.cs" t="Include" />
+          <e p="RolesService.cs" t="Include" />
           <e p="StudentsService.cs" t="Include" />
+          <e p="UsersService.cs" t="Include" />
         </e>
         <e p="sql" t="Include" />
         <e p="Startup.cs" t="Include" />
+        <e p="todo list.txt" t="Include" />
+        <e p="Utils" t="Include">
+          <e p="utils.cs" t="Include" />
+        </e>
         <e p="Views" t="Include">
           <e p="_ViewImports.cshtml" t="Include" />
           <e p="_ViewStart.cshtml" t="Include" />

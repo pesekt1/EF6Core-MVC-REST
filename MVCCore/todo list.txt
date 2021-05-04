@@ -1,0 +1,1 @@
+﻿- exception handling: for example if existing username or password is given when registering

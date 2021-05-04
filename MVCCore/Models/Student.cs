@@ -1,9 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Text.Json.Serialization;
 
 namespace MVCCore.Models
 {
+    [Table("Student")]
     public class Student
     {
         public Student(string lastName, string firstMidName, DateTime enrollmentDate)

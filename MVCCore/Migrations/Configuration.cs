@@ -2,14 +2,14 @@
 {
     using System.Data.Entity.Migrations;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<MVCCore.SchoolContext>
+    internal sealed class Configuration : DbMigrationsConfiguration<MVCCore.DbContext.SchoolContext>
     {
         public Configuration()
         {
             AutomaticMigrationsEnabled = false;
         }
 
-        protected override void Seed(MVCCore.SchoolContext context)
+        protected override void Seed(MVCCore.DbContext.SchoolContext context)
         {
             //  This method will be called after migrating to the latest version.
 

@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System.Data.Entity;
 using System.Threading.Tasks;
+using MVCCore.DbContext;
 using MVCCore.Models;
 
 namespace MVCCore.Controllers

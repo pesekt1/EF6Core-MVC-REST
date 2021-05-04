@@ -6,6 +6,7 @@ using System.Data.SqlClient;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using MVCCore.DbContext;
 //using Microsoft.EntityFrameworkCore; //this is an alternative to System.Data.Entity
 using MVCCore.Models;
 
