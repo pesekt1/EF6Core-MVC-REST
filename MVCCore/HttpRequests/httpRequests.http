@@ -1,0 +1,102 @@
+﻿##################### courses ##############################
+
+### get courses
+GET https://{{host}}/api/courses
+
+### create new course record
+POST https://{{host}}/api/courses HTTP/1.1
+Content-Type: application/json
+
+{
+  "title": "Java2",
+  "credits": 10
+}
+
+### delete course with given id
+DELETE https://{{host}}/api/courses/7 HTTP/1.1
+Content-Type: application/json
+
+### udate course record
+PUT https://{{host}}/api/courses/8 HTTP/1.1
+Content-Type: application/json
+
+{
+  "courseID": 8,
+  "credits": 5,
+  "title": "Java6"
+}
+
+####################### students ################################
+
+
+### get studetns
+GET https://{{host}}/api/students HTTP/1.1
+
+### create new student record
+POST https://{{host}}/api/students HTTP/1.1
+Content-Type: application/json
+
+{
+  "lastName": "John",
+  "firstMidName": "Jones",
+  "enrollmentDate": "2021-05-04T07:37:55.493Z"
+}
+
+### delete student with given id
+DELETE https://{{host}}/api/students/7 HTTP/1.1
+Content-Type: application/json
+
+### update student record
+PUT https://{{host}}/api/students/15 HTTP/1.1
+Content-Type: application/json
+
+{
+  "ID": 15,
+  "lastName": "Jones II",
+  "firstMidName": "John",
+  "enrollmentDate": "2021-05-04T07:37:55.493Z"
+}
+
+
+
+######################################################
+
+
+### registration of a new user -> users table
+POST http://localhost:5557/api/auth/signup
+Content-Type: application/json
+
+{
+  "username": "pesekt100",
+  "email": "pesekt100@gmail.com",
+  "password": "12345678"
+}
+
+### login with credentials, we get a JWT and save it in client.global - session variable auth_token
+POST http://localhost:5557/api/auth/signin
+Content-Type: application/json
+
+{
+  "username": "pesekt",
+  "password": "12345678"
+}
+
+> {% client.global.set("auth_token", response.body.accessToken);
+client.test("Request executed successfully", function() {
+  client.assert(response.status === 200, "Response status is not 200");
+});
+client.test("JWT acquired successfully", function() {
+  client.assert(response.body.accessToken != null, "JWT not acquired");
+});
+%}
+
+### request with JWT authorizaton, we need to login and then use the JWT
+GET http://localhost:5557/api/tutorials HTTP/1.1
+Authorization: Bearer {{auth_token}}
+
+> {%
+client.test("Request executed successfully", function() {
+  client.assert(response.status === 200, "Response status is not 200");
+});
+%}
+

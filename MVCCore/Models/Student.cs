@@ -6,15 +6,15 @@ namespace MVCCore.Models
 {
     public class Student
     {
-        public Student()
-        {
-        }
-
         public Student(string lastName, string firstMidName, DateTime enrollmentDate)
         {
             LastName = lastName;
             FirstMidName = firstMidName;
             EnrollmentDate = enrollmentDate;
+        }
+
+        public Student()
+        {
         }
 
         public int ID { get; set; }

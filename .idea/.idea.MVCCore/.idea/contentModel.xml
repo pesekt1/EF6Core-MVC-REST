@@ -18,6 +18,10 @@
           <e p="SchoolContext.cs" t="Include" />
           <e p="SchoolContextFactory.cs" t="Include" />
         </e>
+        <e p="HttpRequests" t="Include">
+          <e p="http-client.env.json" t="Include" />
+          <e p="httpRequests.http" t="Include" />
+        </e>
         <e p="img" t="Include">
           <e p="swagger.png" t="Include" />
         </e>
@@ -71,6 +75,7 @@
           <e p="CoursesService.cs" t="Include" />
           <e p="StudentsService.cs" t="Include" />
         </e>
+        <e p="sql" t="Include" />
         <e p="Startup.cs" t="Include" />
         <e p="Views" t="Include">
           <e p="_ViewImports.cshtml" t="Include" />

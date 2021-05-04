@@ -1,5 +1,4 @@
 ﻿using System.Collections.Generic;
-using System.Data.Entity;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using MVCCore.Services;
@@ -12,27 +11,38 @@ namespace MVCCore.Rest_Controllers
     public class CoursesController : ControllerBase
     {
         private readonly CoursesService _coursesService;
-        private readonly SchoolContext _context;
 
-        public CoursesController(CoursesService coursesService, SchoolContext context)
+        public CoursesController(CoursesService coursesService)
         {
             _coursesService = coursesService;
-            _context = context;
         }
 
-        // GET: api/Courses
+        // GET: api/courses
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Course>>> GetCourses()
         {
             return await _coursesService.GetCourses();
         }
         
-        // GET: api/Courses/bad
-        [HttpGet]
-        [Route("bad")]
-        public async Task<ActionResult<IEnumerable<Course>>> GetCoursesBad()
+        // PUT: api/courses/1
+        [HttpPut("{id}")]
+        public async Task<ActionResult<Course>> UpdateCourse(long id, Course course)
         {
-            return await _context.Courses.ToListAsync();
+            return await _coursesService.UpdateCourse(id, course);
+        }
+        
+        // POST: api/courses
+        [HttpPost]
+        public async Task<ActionResult<Course>> CreateCourse(Course course)
+        {
+            return await _coursesService.CreateCourse(course);
+        }
+        
+        // DELETE: api/courses/1
+        [HttpDelete("{id}")]
+        public async Task<ActionResult<Course>> DeleteCourse(long id)
+        {
+            return await _coursesService.DeleteCourse(id);
         }
     }
 }

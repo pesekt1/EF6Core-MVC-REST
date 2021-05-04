@@ -10,11 +10,11 @@
                 "dbo.Course",
                 c => new
                 {
-                    CourseID = c.Int(nullable: false),
+                    ID = c.Int(nullable: false, identity: true),
                     Title = c.String(),
                     Credits = c.Int(nullable: false),
                 })
-                .PrimaryKey(t => t.CourseID);
+                .PrimaryKey(t => t.ID);
 
             CreateTable(
                 "dbo.Enrollment",
