@@ -114,3 +114,11 @@ client.test("Request executed successfully", function() {
 });
 %}
 
+
+################ json-server ##########################
+
+### get users
+GET http://localhost:3001/posts
+
+###
+GET https://{{host}}/api/JsonServerRest

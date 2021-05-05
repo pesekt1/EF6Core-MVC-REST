@@ -79,6 +79,8 @@
         <e p="Rest Controllers" t="Include">
           <e p="AuthController.cs" t="Include" />
           <e p="CoursesRestController.cs" t="Include" />
+          <e p="JsonServerRestController.cs" t="Include" />
+          <e p="Post.cs" t="Include" />
           <e p="RolesRestController.cs" t="Include" />
           <e p="StudentsRestController.cs" t="Include" />
           <e p="UsersRestController.cs" t="Include" />

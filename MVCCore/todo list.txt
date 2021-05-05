@@ -1,1 +1,2 @@
 ﻿- exception handling: for example if existing username or password is given when registering
+- JsonWebServerRestController - the response gives empty objects... why?

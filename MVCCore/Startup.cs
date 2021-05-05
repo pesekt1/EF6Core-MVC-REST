@@ -36,6 +36,8 @@ namespace MVCCore
             services.AddScoped<RolesService>();
             services.AddScoped<UsersService>();
             services.AddScoped<AuthService>();
+
+            services.AddHttpClient(); //for http requests
             
             services.AddSwaggerGen(); // Register the Swagger generator, defining 1 or more Swagger documents
 
