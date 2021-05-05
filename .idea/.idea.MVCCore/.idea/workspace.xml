@@ -14,20 +14,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1303173-d1d9-48f5-b7a2-edf9b07b40f5" name="Default Changelist" comment="-">
+      <change afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/json-server/data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/json-server/json-server.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/json-server/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/json-server/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/json-server/posts.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/json-server/routes.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/json-server/data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/json-server/generate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/json-server/json-server.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/json-server/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/json-server/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/json-server/posts.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/json-server/routes.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MVCCore/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MVCCore/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MVCCore/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MVCCore/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVCCore/Rest Controllers/AuthController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/Rest Controllers/AuthController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVCCore/Rest Controllers/RolesRestController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/Rest Controllers/RolesRestController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVCCore/Services/AuthService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/Services/AuthService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/MVCCore.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/MVCCore.Views.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/MVCCore.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/MVCCore.Views.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/MVCCore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/MVCCore.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/MVCCore.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/MVCCore.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/ref/MVCCore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/ref/MVCCore.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp5.0/MVCCore.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp5.0/MVCCore.Views.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp5.0/MVCCore.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp5.0/MVCCore.Views.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp5.0/MVCCore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp5.0/MVCCore.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp5.0/MVCCore.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp5.0/MVCCore.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp5.0/ref/MVCCore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp5.0/ref/MVCCore.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/CodeTemplates/EFModelFromDatabase/Context.cs.t4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/CodeTemplates/EFModelFromDatabase/EntityType.cs.t4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/efpt.config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp5.0/MVCCore.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp5.0/MVCCore.csproj.FileListAbsolute.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,15 +54,13 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/F680C866-D120-4163-9634-EBD842255BE9/194/ObjectMethodExecutor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MVCCore/Models2/Department.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/AD61CA47-F8B7-4CC6-93A0-BA44CC73B5C7/16F/TaskContinuation.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/MVCCore/efpt.config.json" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MVCCore/Models2/SchoolContext6Context.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MVCCore/Models2/Enrollment.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MVCCore/json-server/package-lock.json" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/MVCCore/Views/Shared/Error.cshtml" />
-        <option value="$PROJECT_DIR$/MVCCore/Views/Students/Create.cshtml" />
         <option value="$PROJECT_DIR$/MVCCore/Views/Students/Delete.cshtml" />
         <option value="$PROJECT_DIR$/MVCCore/Views/Students/Details.cshtml" />
         <option value="$PROJECT_DIR$/MVCCore/Views/Students/Edit.cshtml" />
@@ -102,11 +105,13 @@
         <option value="$PROJECT_DIR$/MVCCore/readme.md" />
         <option value="$PROJECT_DIR$/MVCCore/DbContext/SchoolContext.cs" />
         <option value="$PROJECT_DIR$/MVCCore/HttpRequests/http-client.private.env.json" />
-        <option value="$PROJECT_DIR$/MVCCore/HttpRequests/httpRequests.http" />
         <option value="$PROJECT_DIR$/MVCCore/Startup.cs" />
         <option value="$PROJECT_DIR$/MVCCore/Services/AuthService.cs" />
         <option value="$PROJECT_DIR$/MVCCore/Rest Controllers/AuthController.cs" />
         <option value="$PROJECT_DIR$/MVCCore/Rest Controllers/RolesRestController.cs" />
+        <option value="$PROJECT_DIR$/MVCCore/HttpRequests/httpRequests.http" />
+        <option value="$PROJECT_DIR$/MVCCore/json-server/package.json" />
+        <option value="$PROJECT_DIR$/MVCCore/json-server/json-server.json" />
       </list>
     </option>
   </component>
@@ -126,12 +131,33 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="rest.client.default.execution.environment" value="dev" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RestClientSettings">
     <option name="REQUEST_HISTORY">
       <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="https://localhost:5558/api/roles" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Authorization" />
+                <option name="value" value="Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI5IiwianRpIjoiYWI1MTg3MzMtMDU5Yi00MDFkLTlhNDUtZjA2YjQ1YmZjYTIzIiwiZW1haWwiOiJwZXNla3RAZ21haWwuY29tIiwibmJmIjoxNjIwMTk5OTA5LCJleHAiOjE2MjAyMDcxMDksImlhdCI6MTYyMDE5OTkwOX0.3LqWEguHRSJwV1rQp-hm1yEWwKgzW7WnuIZLBd25SrI" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="https://localhost:5558/api/roles" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
         <RestClientRequest>
           <option name="httpMethod" value="POST" />
           <option name="urlBase" value="https://localhost:5558/api/Auth/login" />
@@ -339,13 +365,6 @@
           </option>
           <option name="haveTextToSend" value="true" />
           <option name="textToSend" value="{&#10;  &quot;name&quot;: &quot;customer&quot;&#10;}" />
-          <option name="filesToSend" value="" />
-        </RestClientRequest>
-        <RestClientRequest>
-          <option name="httpMethod" value="GET" />
-          <option name="urlBase" value="https://localhost:5558/api/roles" />
-          <option name="urlPath" value="" />
-          <option name="textToSend" value="" />
           <option name="filesToSend" value="" />
         </RestClientRequest>
         <RestClientRequest>
@@ -587,7 +606,8 @@
       <workItem from="1620048792112" duration="10544000" />
       <workItem from="1620123670018" duration="9208000" />
       <workItem from="1620138505729" duration="14934000" />
-      <workItem from="1620196292318" duration="3584000" />
+      <workItem from="1620196292318" duration="5227000" />
+      <workItem from="1620207368433" duration="1325000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1619005230412</created>
@@ -722,7 +742,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620157201820</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="-">
+      <created>1620200098165</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1620200098165</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -767,26 +794,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="780" y="296" width="1094" height="636" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620197710827" />
-    <state width="1875" height="290" key="GridCell.Tab.0.bottom" timestamp="1620199681692">
+    <state width="1875" height="290" key="GridCell.Tab.0.bottom" timestamp="1620208601938">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1875" height="251" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1620039248742" />
-    <state width="1875" height="290" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620199681692" />
-    <state width="1875" height="290" key="GridCell.Tab.0.center" timestamp="1620199681692">
+    <state width="1875" height="290" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620208601938" />
+    <state width="1875" height="290" key="GridCell.Tab.0.center" timestamp="1620208601938">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1875" height="251" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1620039248742" />
-    <state width="1875" height="290" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620199681692" />
-    <state width="1875" height="290" key="GridCell.Tab.0.left" timestamp="1620199681692">
+    <state width="1875" height="290" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620208601938" />
+    <state width="1875" height="290" key="GridCell.Tab.0.left" timestamp="1620208601938">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1875" height="251" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1620039248742" />
-    <state width="1875" height="290" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620199681692" />
-    <state width="1875" height="290" key="GridCell.Tab.0.right" timestamp="1620199681692">
+    <state width="1875" height="290" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620208601938" />
+    <state width="1875" height="290" key="GridCell.Tab.0.right" timestamp="1620208601938">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1875" height="251" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1620039248742" />
-    <state width="1875" height="290" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620199681692" />
+    <state width="1875" height="290" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620208601938" />
     <state width="1875" height="374" key="GridCell.Tab.1.bottom" timestamp="1620158670185">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -859,10 +886,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="669" y="196" key="RiderGenerateDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620138693663" />
-    <state x="551" y="252" key="Vcs.Push.Dialog.v2" timestamp="1620157205279">
+    <state x="551" y="252" key="Vcs.Push.Dialog.v2" timestamp="1620200104535">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="551" y="252" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620157205279" />
+    <state x="551" y="252" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620200104535" />
     <state width="968" height="528" key="XDebugger.FullValuePopup" timestamp="1619441930084">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

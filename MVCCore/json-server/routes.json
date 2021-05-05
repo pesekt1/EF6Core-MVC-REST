@@ -1,0 +1,3 @@
+{
+  "/resources/:year": "/resources?year=:year"
+}

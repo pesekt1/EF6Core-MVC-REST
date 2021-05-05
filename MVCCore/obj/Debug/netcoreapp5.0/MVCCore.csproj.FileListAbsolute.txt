@@ -94,3 +94,9 @@ C:\Users\Tomas Pesek\Dropbox\=== KEA ===\My subjects\Databases for developers\De
 C:\Users\Tomas Pesek\Dropbox\=== KEA ===\My subjects\Databases for developers\Demo apps - GitHub\EF6Core\MVCCore\obj\Debug\netcoreapp5.0\MVCCore.pdb
 C:\Users\Tomas Pesek\Dropbox\=== KEA ===\My subjects\Databases for developers\Demo apps - GitHub\EF6Core\MVCCore\obj\Debug\netcoreapp5.0\MVCCore.genruntimeconfig.cache
 C:\Users\Tomas Pesek\Dropbox\=== KEA ===\My subjects\Databases for developers\Demo apps - GitHub\EF6Core\MVCCore\bin\Debug\netcoreapp5.0\HttpRequests\http-client.env.json
+C:\Users\Tomas Pesek\Dropbox\=== KEA ===\My subjects\Databases for developers\Demo apps - GitHub\EF6Core\MVCCore\bin\Debug\netcoreapp5.0\json-server\data.json
+C:\Users\Tomas Pesek\Dropbox\=== KEA ===\My subjects\Databases for developers\Demo apps - GitHub\EF6Core\MVCCore\bin\Debug\netcoreapp5.0\json-server\json-server.json
+C:\Users\Tomas Pesek\Dropbox\=== KEA ===\My subjects\Databases for developers\Demo apps - GitHub\EF6Core\MVCCore\bin\Debug\netcoreapp5.0\json-server\package-lock.json
+C:\Users\Tomas Pesek\Dropbox\=== KEA ===\My subjects\Databases for developers\Demo apps - GitHub\EF6Core\MVCCore\bin\Debug\netcoreapp5.0\json-server\package.json
+C:\Users\Tomas Pesek\Dropbox\=== KEA ===\My subjects\Databases for developers\Demo apps - GitHub\EF6Core\MVCCore\bin\Debug\netcoreapp5.0\json-server\posts.json
+C:\Users\Tomas Pesek\Dropbox\=== KEA ===\My subjects\Databases for developers\Demo apps - GitHub\EF6Core\MVCCore\bin\Debug\netcoreapp5.0\json-server\routes.json

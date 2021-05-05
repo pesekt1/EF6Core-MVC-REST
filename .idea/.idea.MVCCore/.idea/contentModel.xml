@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\Users\Tomas Pesek\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Tomas Pesek\AppData\Local\JetBrains\Rider2020.2\javascript\typings\lodash\4.14.168\node_modules\@types\lodash" t="IncludeRecursive" />
     <e p="C:\Users\Tomas Pesek\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_MVCCore.302709505.00" t="ExcludeRecursive" />
     <e p="C:\Users\Tomas Pesek\AppData\Roaming\JetBrains\Rider2020.2\consoles\db" t="IncludeRecursive" />
     <e p="C:\Users\Tomas Pesek\AppData\Roaming\JetBrains\Rider2020.2\extensions" t="IncludeRecursive" />
@@ -25,6 +26,18 @@
         <e p="img" t="Include">
           <e p="env.png" t="Include" />
           <e p="swagger.png" t="Include" />
+        </e>
+        <e p="json-server" t="Include">
+          <e p="data.json" t="Include" />
+          <e p="generate.js" t="Include" />
+          <e p="json-server.json" t="Include" />
+          <e p="node_modules\faker" t="IncludeRecursive" />
+          <e p="node_modules\json-server" t="IncludeRecursive" />
+          <e p="node_modules\lodash" t="IncludeRecursive" />
+          <e p="package-lock.json" t="Include" />
+          <e p="package.json" t="Include" />
+          <e p="posts.json" t="Include" />
+          <e p="routes.json" t="Include" />
         </e>
         <e p="Migrations" t="Include">
           <e p="202008170448151_Initial.cs" t="Include" />
