@@ -25,6 +25,8 @@
         </e>
         <e p="img" t="Include">
           <e p="env.png" t="Include" />
+          <e p="json-server.png" t="Include" />
+          <e p="json-server2.png" t="Include" />
           <e p="swagger.png" t="Include" />
         </e>
         <e p="json-server" t="Include">

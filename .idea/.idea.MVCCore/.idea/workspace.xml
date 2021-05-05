@@ -14,25 +14,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1303173-d1d9-48f5-b7a2-edf9b07b40f5" name="Default Changelist" comment="-">
-      <change afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/json-server/data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/json-server/json-server.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/json-server/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/json-server/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/json-server/posts.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/json-server/routes.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MVCCore/json-server/data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MVCCore/json-server/generate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MVCCore/json-server/json-server.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MVCCore/json-server/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MVCCore/json-server/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MVCCore/json-server/posts.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MVCCore/json-server/routes.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MVCCore/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MVCCore/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MVCCore/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MVCCore/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVCCore/CodeTemplates/EFModelFromDatabase/Context.cs.t4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVCCore/CodeTemplates/EFModelFromDatabase/EntityType.cs.t4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVCCore/efpt.config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp5.0/MVCCore.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp5.0/MVCCore.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/img/json-server.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVCCore/img/json-server2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +86,6 @@
         <option value="$PROJECT_DIR$/MVCCore/Utils/utils.cs" />
         <option value="$PROJECT_DIR$/MVCCore/todo list.txt" />
         <option value="$PROJECT_DIR$/MVCCore/appsettings.json" />
-        <option value="$PROJECT_DIR$/MVCCore/readme.md" />
         <option value="$PROJECT_DIR$/MVCCore/DbContext/SchoolContext.cs" />
         <option value="$PROJECT_DIR$/MVCCore/HttpRequests/http-client.private.env.json" />
         <option value="$PROJECT_DIR$/MVCCore/Startup.cs" />
@@ -112,6 +95,7 @@
         <option value="$PROJECT_DIR$/MVCCore/HttpRequests/httpRequests.http" />
         <option value="$PROJECT_DIR$/MVCCore/json-server/package.json" />
         <option value="$PROJECT_DIR$/MVCCore/json-server/json-server.json" />
+        <option value="$PROJECT_DIR$/MVCCore/readme.md" />
       </list>
     </option>
   </component>
@@ -607,7 +591,7 @@
       <workItem from="1620123670018" duration="9208000" />
       <workItem from="1620138505729" duration="14934000" />
       <workItem from="1620196292318" duration="5227000" />
-      <workItem from="1620207368433" duration="1325000" />
+      <workItem from="1620207368433" duration="1595000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1619005230412</created>
@@ -749,7 +733,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620200098165</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="-">
+      <created>1620208806716</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1620208806716</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -886,10 +877,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="669" y="196" key="RiderGenerateDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620138693663" />
-    <state x="551" y="252" key="Vcs.Push.Dialog.v2" timestamp="1620200104535">
+    <state x="551" y="252" key="Vcs.Push.Dialog.v2" timestamp="1620208817983">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="551" y="252" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620200104535" />
+    <state x="551" y="252" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620208817983" />
     <state width="968" height="528" key="XDebugger.FullValuePopup" timestamp="1619441930084">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
