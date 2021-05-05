@@ -14,9 +14,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1303173-d1d9-48f5-b7a2-edf9b07b40f5" name="Default Changelist" comment="-">
-      <change afterPath="$PROJECT_DIR$/MVCCore/img/json-server.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MVCCore/img/json-server2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVCCore/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/Models2/Course.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/Models2/CourseAssignment.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/Models2/Department.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/Models2/Enrollment.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/Models2/Instructor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/Models2/OfficeAssignment.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/Models2/SchoolContext6Context.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/Models2/Student.cs" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,10 +41,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/F680C866-D120-4163-9634-EBD842255BE9/194/ObjectMethodExecutor.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/MVCCore/Models2/Department.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/AD61CA47-F8B7-4CC6-93A0-BA44CC73B5C7/16F/TaskContinuation.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/MVCCore/Models2/SchoolContext6Context.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/MVCCore/Models2/Enrollment.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MVCCore/json-server/package-lock.json" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -591,7 +593,7 @@
       <workItem from="1620123670018" duration="9208000" />
       <workItem from="1620138505729" duration="14934000" />
       <workItem from="1620196292318" duration="5227000" />
-      <workItem from="1620207368433" duration="1595000" />
+      <workItem from="1620207368433" duration="1639000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1619005230412</created>
@@ -740,7 +742,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620208806716</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="-">
+      <created>1620209029197</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1620209029197</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -877,10 +886,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="669" y="196" key="RiderGenerateDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620138693663" />
-    <state x="551" y="252" key="Vcs.Push.Dialog.v2" timestamp="1620208817983">
+    <state x="551" y="252" key="Vcs.Push.Dialog.v2" timestamp="1620209033672">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="551" y="252" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620208817983" />
+    <state x="551" y="252" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620209033672" />
     <state width="968" height="528" key="XDebugger.FullValuePopup" timestamp="1619441930084">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
