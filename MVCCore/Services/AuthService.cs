@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Data.Entity;
 using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
 using System.Security.Claims;
@@ -27,12 +28,8 @@ namespace MVCCore.Services
         {
             var encPassword = Utils.EncryptData(password);
             //var decPassword = Utils.Decryptdata(encPassword);
-            User user =  _context.Users.SingleOrDefault(m => m.UserName == username && m.Password == encPassword);
-            if (user == null)
-            {
-                return null;
-            }
-            return GenerateToken(user);
+            var user =  await _context.Users.SingleOrDefaultAsync(m => m.UserName == username && m.Password == encPassword);
+            return user == null ? null : GenerateToken(user);
         }
         
         private AuthenticationResult GenerateToken(User user)

@@ -20,17 +20,18 @@ namespace MVCCore.Rest_Controllers
         
         [HttpPost]
         [Route("login")]
-        public async Task<IActionResult> login(string username, string password)
+        public async Task<IActionResult> Login(string username, string password)
         {
-            var userDetails =  await _authService.Login(username, password);
-            if (userDetails == null)
+            var authResult =  await _authService.Login(username, password);
+            if (authResult == null)
             {
                 //ModelState.AddModelError("Password", "Invalid login attempt.");
-                return StatusCode(StatusCodes.Status400BadRequest, new { message = "error occurred, incorrect user name or password" });
+                //Status400BadRequest
+                return StatusCode(StatusCodes.Status401Unauthorized, new { message = "error occurred, incorrect user name or password" });
             }
             //HttpContext.Session.SetString("userId", customerDetails.Firstname);
             return Ok(new AuthSuccessResponse { 
-                Token = userDetails.Token
+                Token = authResult.Token
             });
         }
     }

@@ -20,7 +20,8 @@ namespace MVCCore.Rest_Controllers
         }
 
         // GET: api/roles
-        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
+        //[Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
+        [Authorize]
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Role>>> GetRoles()
         {
