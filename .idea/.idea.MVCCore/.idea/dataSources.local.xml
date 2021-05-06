@@ -22,5 +22,15 @@
         </introspection-scope>
       </schema-mapping>
     </data-source>
+    <data-source name="BookstoreDb@localhost" uuid="846b8329-7310-4ece-9c56-313b6c799524">
+      <database-info product="Mongo DB" version="4.4.0" jdbc-version="4.2" driver-name="MongoDB JDBC Driver" driver-version="1.11" dbms="MONGO" exact-version="4.4.0" exact-driver-version="1.11" />
+      <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
+      <secret-storage>master_key</secret-storage>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="schema" qname="@" />
+        </introspection-scope>
+      </schema-mapping>
+    </data-source>
   </component>
 </project>

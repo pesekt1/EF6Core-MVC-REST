@@ -1,5 +1,7 @@
 ﻿# MVC Core project:
 
+## CRUD application with SQL Server
+
 ### SQL Server database:
 - connection string in appsettings.json:
  ```c#
@@ -427,3 +429,51 @@ Now We have an extra route: <http://localhost:3000/resources/2005>
 - We can also deploy our json-server app on Heroku, Azure etc. and have our public fake api running.
 
 
+## CRUD application with MongoDB
+
+### Dependencies
+
+- Visit the [NuGet Gallery: MongoDB.Driver](https://www.nuget.org/packages/MongoDB.Driver/) to determine the latest stable version of the .NET driver for MongoDB. In the **Package Manager Console** window, navigate to the project root. Run the following command to install the .NET driver for MongoDB:
+
+    ```powershell
+    Install-Package MongoDB.Driver -Version {VERSION}
+    ```
+
+- Install-Package Newtonsoft.Json
+
+    ```powershell
+    Install-Package Newtonsoft.Json
+    ```
+
+- Code structure:
+
+- MVCCore
+    - MongoDB
+        - Controllers
+        - Models
+        - Services
+    
+register services in the startup.cs:
+
+```c#
+        public void ConfigureServices(IServiceCollection services)
+        {
+            ...
+            //MongoDB CRUD app services:
+            services.AddScoped<IMongoClient>(s => 
+                new MongoClient(Environment.GetEnvironmentVariable("MONGO_URL"))
+            );
+            services.AddScoped<BookService>();
+            
+            services.AddControllers()
+                .AddNewtonsoftJson(options => options.UseMemberCasing()); //for MongoDB
+```
+
+Set up the environment variables in Properties/launchSettings.json:
+```josn
+    "MVCCore": {
+      "environmentVariables": {
+        "MONGO_URL": "mongodb://localhost:27017",
+        "MONGO_DB": "BookstoreDb"
+      },
+```

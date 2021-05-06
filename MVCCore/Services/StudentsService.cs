@@ -75,7 +75,7 @@ namespace MVCCore.Services
         
         public async Task<ActionResult<IEnumerable<Object>>> CreateStudentSP(String LastName, String FirstMidName, DateTime EnrollmentDate)
         {
-            // _context.Database.ExecuteSqlCommandAsync(
+            // await _context.Database.ExecuteSqlCommandAsync(
             //      "exec sp_createStudent @LastName, @FirstMidName,@EnrollmentDate", 
             //      new SqlParameter("LastName", LastName),
             //      new SqlParameter("FirstMidName", FirstMidName),

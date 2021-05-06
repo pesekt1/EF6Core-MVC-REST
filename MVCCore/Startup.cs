@@ -7,7 +7,9 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.IdentityModel.Tokens;
+using MongoDB.Driver;
 using MVCCore.DbContext;
+using MVCCore.MongoDB.Services;
 using MVCCore.Services;
 
 namespace MVCCore
@@ -25,9 +27,8 @@ namespace MVCCore
         {
             services.AddControllers();
             services.AddControllersWithViews();
-            
-            // services.AddScoped<SchoolContext>(_ => 
-            //     new SchoolContext(Configuration.GetConnectionString("DefaultConnection")));
+
+            //SQL Server CRUD app services:
             services.AddScoped<SchoolContext>(_ => 
                 new SchoolContext(Environment.GetEnvironmentVariable("DB_URL")));
             
@@ -37,6 +38,15 @@ namespace MVCCore
             services.AddScoped<UsersService>();
             services.AddScoped<AuthService>();
 
+            //MongoDB CRUD app services:
+            services.AddScoped<IMongoClient>(s => 
+                new MongoClient(Environment.GetEnvironmentVariable("MONGO_URL"))
+            );
+            services.AddScoped<BookService>();
+            
+            services.AddControllers()
+                .AddNewtonsoftJson(options => options.UseMemberCasing()); //for MongoDB
+            
             services.AddHttpClient(); //for http requests
             
             services.AddSwaggerGen(); // Register the Swagger generator, defining 1 or more Swagger documents

@@ -21,7 +21,9 @@
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development",
         "JWT_SECRET": "kb5lifvm4keqxq84oq386d3z8km1chtk",
-        "DB_URL": "Server=localhost\\SQLEXPRESS;Database=EF6MVCCore;Trusted_Connection=True;MultipleActiveResultSets=true"
+        "DB_URL": "Server=localhost\\SQLEXPRESS;Database=EF6MVCCore;Trusted_Connection=True;MultipleActiveResultSets=true",
+        "MONGO_URL": "mongodb://localhost:27017",
+        "MONGO_DB": "BookstoreDb"
       },
       "applicationUrl": "https://localhost:5558"
     }
