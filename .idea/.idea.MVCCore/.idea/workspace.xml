@@ -13,61 +13,25 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1303173-d1d9-48f5-b7a2-edf9b07b40f5" name="Default Changelist" comment="-">
-      <change afterPath="$PROJECT_DIR$/MVCCore/MongoDB/Controllers/BooksController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MVCCore/MongoDB/Models/Book.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MVCCore/MongoDB/Services/BookService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/DnsClient.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/Microsoft.AspNetCore.JsonPatch.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/MongoDB.Bson.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/MongoDB.Driver.Core.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/MongoDB.Driver.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/MongoDB.Libmongocrypt.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/Newtonsoft.Json.Bson.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/Newtonsoft.Json.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/SharpCompress.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/runtimes/linux/native/libmongocrypt.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/runtimes/osx/native/libmongocrypt.dylib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/runtimes/win/native/libzstd.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/runtimes/win/native/mongocrypt.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/runtimes/win/native/snappy32.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/runtimes/win/native/snappy64.dll" afterDir="false" />
+    <list default="true" id="a1303173-d1d9-48f5-b7a2-edf9b07b40f5" name="Default Changelist" comment="added mongodb">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MVCCore/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MVCCore/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MVCCore/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MVCCore/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MVCCore/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MVCCore/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MVCCore/.idea/dataSources/5fd3faef-1182-4f30-8949-f5128974ab36.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MVCCore/.idea/dataSources/5fd3faef-1182-4f30-8949-f5128974ab36.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MVCCore/.idea/dataSources/5fd3faef-1182-4f30-8949-f5128974ab36/storage_v2/_src_/database/EF6MVCCore.JDHSyw/schema/INFORMATION_SCHEMA.NBgcMw.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MVCCore/.idea/dataSources/5fd3faef-1182-4f30-8949-f5128974ab36/storage_v2/_src_/database/EF6MVCCore.JDHSyw/schema/INFORMATION_SCHEMA.NBgcMw.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MVCCore/.idea/dataSources/5fd3faef-1182-4f30-8949-f5128974ab36/storage_v2/_src_/database/EF6MVCCore.JDHSyw/schema/dbo.sYMBAA.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MVCCore/.idea/dataSources/5fd3faef-1182-4f30-8949-f5128974ab36/storage_v2/_src_/database/EF6MVCCore.JDHSyw/schema/dbo.sYMBAA.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MVCCore/.idea/dataSources/5fd3faef-1182-4f30-8949-f5128974ab36/storage_v2/_src_/database/EF6MVCCore.JDHSyw/schema/sys.zb4BAA.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MVCCore/.idea/dataSources/5fd3faef-1182-4f30-8949-f5128974ab36/storage_v2/_src_/database/EF6MVCCore.JDHSyw/schema/sys.zb4BAA.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MVCCore/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MVCCore/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/MVCCore/DesignTimeBuild/.dtbcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/MVCCore/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/MVCCore/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/MVCCore/v16/.suo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVCCore/MVCCore.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/MVCCore.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVCCore/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/Properties/launchSettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVCCore/Services/StudentsService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/Services/StudentsService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/MongoDB/Services/BookService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/MongoDB/Services/BookService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVCCore/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/Startup.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/MVCCore.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/MVCCore.Views.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/MVCCore.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/MVCCore.Views.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/MVCCore.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/MVCCore.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/MVCCore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/MVCCore.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/MVCCore.dll.config" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/MVCCore.dll.config" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/MVCCore.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/MVCCore.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/ref/MVCCore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/ref/MVCCore.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp5.0/MVCCore.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp5.0/MVCCore.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp5.0/MVCCore.RazorAssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp5.0/MVCCore.RazorAssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp5.0/MVCCore.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp5.0/MVCCore.Views.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp5.0/MVCCore.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp5.0/MVCCore.Views.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp5.0/MVCCore.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp5.0/MVCCore.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp5.0/MVCCore.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp5.0/MVCCore.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp5.0/MVCCore.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp5.0/MVCCore.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp5.0/MVCCore.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp5.0/MVCCore.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp5.0/MVCCore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp5.0/MVCCore.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp5.0/MVCCore.dll.config" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp5.0/MVCCore.dll.config" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp5.0/MVCCore.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp5.0/MVCCore.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp5.0/ref/MVCCore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp5.0/ref/MVCCore.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVCCore/obj/MVCCore.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/obj/MVCCore.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVCCore/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVCCore/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVCCore/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVCCore/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVCCore/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +57,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/MVCCore/HttpRequests/http-client.env.json" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/5fd3faef-1182-4f30-8949-f5128974ab36/console_2.sql" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/5fd3faef-1182-4f30-8949-f5128974ab36/console_4.sql" />
         <option value="$PROJECT_DIR$/MVCCore/Migrations/202008170448151_Initial.cs" />
@@ -137,13 +100,14 @@
         <option value="$PROJECT_DIR$/MVCCore/Rest Controllers/JsonServerRestController.cs" />
         <option value="$PROJECT_DIR$/MVCCore/todo list.txt" />
         <option value="$PROJECT_DIR$/MVCCore/Services/StudentsService.cs" />
-        <option value="$PROJECT_DIR$/MVCCore/MongoDB/Models/Book.cs" />
         <option value="$PROJECT_DIR$/MVCCore/MongoDB/Models/BookstoreDatabaseSettings.cs" />
         <option value="$PROJECT_DIR$/MVCCore/MongoDB/Controllers/BooksController.cs" />
         <option value="$PROJECT_DIR$/MVCCore/Properties/launchSettings.json" />
-        <option value="$PROJECT_DIR$/MVCCore/Startup.cs" />
         <option value="$PROJECT_DIR$/MVCCore/readme.md" />
         <option value="$PROJECT_DIR$/MVCCore/MongoDB/Services/BookService.cs" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/5fd3faef-1182-4f30-8949-f5128974ab36/console_13.sql" />
+        <option value="$PROJECT_DIR$/MVCCore/MongoDB/Models/Book.cs" />
+        <option value="$PROJECT_DIR$/MVCCore/Startup.cs" />
       </list>
     </option>
   </component>
@@ -673,7 +637,11 @@
       <workItem from="1620228308683" duration="2723000" />
       <workItem from="1620308983022" duration="330000" />
       <workItem from="1620309429433" duration="185000" />
-      <workItem from="1620309625056" duration="3056000" />
+      <workItem from="1620309625056" duration="3212000" />
+      <workItem from="1620645516376" duration="1490000" />
+      <workItem from="1620804329255" duration="1996000" />
+      <workItem from="1621235344687" duration="1017000" />
+      <workItem from="1621338053077" duration="2080000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1619005230412</created>
@@ -843,7 +811,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620213821287</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="added mongodb">
+      <created>1620312696124</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1620312696124</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -873,7 +848,8 @@
     <MESSAGE value="added security" />
     <MESSAGE value="refactoring" />
     <MESSAGE value="-" />
-    <option name="LAST_COMMIT_MESSAGE" value="-" />
+    <MESSAGE value="added mongodb" />
+    <option name="LAST_COMMIT_MESSAGE" value="added mongodb" />
   </component>
   <component name="WindowStateProjectService">
     <state x="347" y="360" key="#SQL_Dialects" timestamp="1620156990706">
@@ -884,34 +860,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="894" y="311" key="#Web_Browsers/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620152224524" />
-    <state x="780" y="296" width="1094" height="636" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1620309034532">
+    <state x="780" y="296" width="1094" height="636" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1621235733505">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="780" y="296" width="1094" height="636" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620309034532" />
+    <state x="780" y="296" width="1094" height="636" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1621235733505" />
     <state width="424" height="466" key="DebuggerActiveHint" timestamp="1620213286279">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="424" height="466" key="DebuggerActiveHint/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620213286279" />
-    <state width="1875" height="349" key="GridCell.Tab.0.bottom" timestamp="1620312253497">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1875" height="254" key="GridCell.Tab.0.bottom" timestamp="1621340066594">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1875" height="251" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1620039248742" />
-    <state width="1875" height="349" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620312253497" />
-    <state width="1875" height="349" key="GridCell.Tab.0.center" timestamp="1620312253497">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1875" height="527" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1621339638738" />
+    <state width="1875" height="254" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1621340066594" />
+    <state width="1875" height="254" key="GridCell.Tab.0.center" timestamp="1621340066594">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1875" height="251" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1620039248742" />
-    <state width="1875" height="349" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620312253497" />
-    <state width="1875" height="349" key="GridCell.Tab.0.left" timestamp="1620312253497">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1875" height="527" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1621339638738" />
+    <state width="1875" height="254" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1621340066594" />
+    <state width="1875" height="254" key="GridCell.Tab.0.left" timestamp="1621340066594">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1875" height="251" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1620039248742" />
-    <state width="1875" height="349" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620312253497" />
-    <state width="1875" height="349" key="GridCell.Tab.0.right" timestamp="1620312253497">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1875" height="527" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1621339638738" />
+    <state width="1875" height="254" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1621340066594" />
+    <state width="1875" height="254" key="GridCell.Tab.0.right" timestamp="1621340066594">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1875" height="251" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1620039248742" />
-    <state width="1875" height="349" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620312253497" />
+    <state width="1875" height="527" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1621339638738" />
+    <state width="1875" height="254" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1621340066594" />
     <state width="1875" height="374" key="GridCell.Tab.1.bottom" timestamp="1620218412966">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -984,10 +964,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="669" y="196" key="RiderGenerateDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620210512673" />
-    <state x="551" y="252" key="Vcs.Push.Dialog.v2" timestamp="1620213825888">
+    <state x="551" y="252" key="Vcs.Push.Dialog.v2" timestamp="1620312702369">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="551" y="252" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620213825888" />
+    <state x="551" y="252" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620312702369" />
     <state width="968" height="528" key="XDebugger.FullValuePopup" timestamp="1619441930084">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -1008,5 +988,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="760" y="425" key="git4idea.remote.GitConfigureRemotesDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1619005255554" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1620805791707">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620805791707" />
   </component>
 </project>

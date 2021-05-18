@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using MongoDB.Driver;
 using MVCCore.MongoDB.Models;
 
@@ -29,6 +30,13 @@ namespace MVCCore.MongoDB.Services
 
         public void Update(string id, Book bookIn) =>
             _books.ReplaceOne(book => book.Id == id, bookIn);
+
+        public void Update2(string id)
+        {
+            var updatedBook = _books.Find(b => true).ToList().First(b => b.Id == id);
+            updatedBook.Author = "ddd";
+            _books.ReplaceOne(book => book.Id == id, updatedBook);
+        }
 
         public void Remove(Book bookIn) =>
             _books.DeleteOne(book => book.Id == bookIn.Id);

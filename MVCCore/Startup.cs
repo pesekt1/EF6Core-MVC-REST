@@ -43,9 +43,9 @@ namespace MVCCore
                 new MongoClient(Environment.GetEnvironmentVariable("MONGO_URL"))
             );
             services.AddScoped<BookService>();
-            
-            services.AddControllers()
-                .AddNewtonsoftJson(options => options.UseMemberCasing()); //for MongoDB
+
+            // services.AddControllers()
+            //     .AddNewtonsoftJson(options => options.UseMemberCasing()); // for MongoDB but it deactivates JsonIgnore
             
             services.AddHttpClient(); //for http requests
             
