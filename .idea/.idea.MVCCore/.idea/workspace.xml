@@ -13,25 +13,21 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1303173-d1d9-48f5-b7a2-edf9b07b40f5" name="Default Changelist" comment="added mongodb">
+    <list default="true" id="a1303173-d1d9-48f5-b7a2-edf9b07b40f5" name="Default Changelist" comment="-">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MVCCore/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MVCCore/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MVCCore/.idea/dataSources/5fd3faef-1182-4f30-8949-f5128974ab36.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MVCCore/.idea/dataSources/5fd3faef-1182-4f30-8949-f5128974ab36.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MVCCore/.idea/dataSources/5fd3faef-1182-4f30-8949-f5128974ab36/storage_v2/_src_/database/EF6MVCCore.JDHSyw/schema/INFORMATION_SCHEMA.NBgcMw.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MVCCore/.idea/dataSources/5fd3faef-1182-4f30-8949-f5128974ab36/storage_v2/_src_/database/EF6MVCCore.JDHSyw/schema/INFORMATION_SCHEMA.NBgcMw.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MVCCore/.idea/dataSources/5fd3faef-1182-4f30-8949-f5128974ab36/storage_v2/_src_/database/EF6MVCCore.JDHSyw/schema/dbo.sYMBAA.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MVCCore/.idea/dataSources/5fd3faef-1182-4f30-8949-f5128974ab36/storage_v2/_src_/database/EF6MVCCore.JDHSyw/schema/dbo.sYMBAA.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MVCCore/.idea/dataSources/5fd3faef-1182-4f30-8949-f5128974ab36/storage_v2/_src_/database/EF6MVCCore.JDHSyw/schema/sys.zb4BAA.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MVCCore/.idea/dataSources/5fd3faef-1182-4f30-8949-f5128974ab36/storage_v2/_src_/database/EF6MVCCore.JDHSyw/schema/sys.zb4BAA.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MVCCore/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MVCCore/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVCCore/MongoDB/Services/BookService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/MongoDB/Services/BookService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVCCore/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/MVCCore/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/MVCCore/v16/.suo" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/MVCCore.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/MVCCore.Views.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/MVCCore.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/MVCCore.Views.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/MVCCore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/MVCCore.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/MVCCore.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/MVCCore.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/ref/MVCCore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/bin/Debug/netcoreapp5.0/ref/MVCCore.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp5.0/MVCCore.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp5.0/MVCCore.Views.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp5.0/MVCCore.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp5.0/MVCCore.Views.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp5.0/MVCCore.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp5.0/MVCCore.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp5.0/MVCCore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp5.0/MVCCore.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp5.0/MVCCore.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp5.0/MVCCore.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp5.0/ref/MVCCore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/obj/Debug/netcoreapp5.0/ref/MVCCore.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVCCore/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/MVCCore/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +66,6 @@
         <option value="$PROJECT_DIR$/MVCCore/Migrations/Configuration.cs" />
         <option value="$PROJECT_DIR$/MVCCore/Services/CoursesService.cs" />
         <option value="$PROJECT_DIR$/MVCCore/Services/RolesService.cs" />
-        <option value="$PROJECT_DIR$/MVCCore/Controllers/StudentsController.cs" />
         <option value="$PROJECT_DIR$/MVCCore/Rest Controllers/StudentsRestController.cs" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/5fd3faef-1182-4f30-8949-f5128974ab36/console_11.sql" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/5fd3faef-1182-4f30-8949-f5128974ab36/console_12.sql" />
@@ -103,11 +98,12 @@
         <option value="$PROJECT_DIR$/MVCCore/MongoDB/Models/BookstoreDatabaseSettings.cs" />
         <option value="$PROJECT_DIR$/MVCCore/MongoDB/Controllers/BooksController.cs" />
         <option value="$PROJECT_DIR$/MVCCore/Properties/launchSettings.json" />
-        <option value="$PROJECT_DIR$/MVCCore/readme.md" />
         <option value="$PROJECT_DIR$/MVCCore/MongoDB/Services/BookService.cs" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/5fd3faef-1182-4f30-8949-f5128974ab36/console_13.sql" />
         <option value="$PROJECT_DIR$/MVCCore/MongoDB/Models/Book.cs" />
         <option value="$PROJECT_DIR$/MVCCore/Startup.cs" />
+        <option value="$PROJECT_DIR$/MVCCore/Controllers/StudentsController.cs" />
+        <option value="$PROJECT_DIR$/MVCCore/readme.md" />
       </list>
     </option>
   </component>
@@ -641,7 +637,10 @@
       <workItem from="1620645516376" duration="1490000" />
       <workItem from="1620804329255" duration="1996000" />
       <workItem from="1621235344687" duration="1017000" />
-      <workItem from="1621338053077" duration="2080000" />
+      <workItem from="1621338053077" duration="3726000" />
+      <workItem from="1621787358784" duration="706000" />
+      <workItem from="1622096993892" duration="626000" />
+      <workItem from="1631287064768" duration="6994000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1619005230412</created>
@@ -818,7 +817,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620312696124</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="-">
+      <created>1621340156001</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1621340156001</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -847,150 +853,26 @@
     <MESSAGE value="changed namespace" />
     <MESSAGE value="added security" />
     <MESSAGE value="refactoring" />
-    <MESSAGE value="-" />
     <MESSAGE value="added mongodb" />
-    <option name="LAST_COMMIT_MESSAGE" value="added mongodb" />
+    <MESSAGE value="-" />
+    <option name="LAST_COMMIT_MESSAGE" value="-" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="347" y="360" key="#SQL_Dialects" timestamp="1620156990706">
+    <state width="1875" height="254" key="GridCell.Tab.0.bottom" timestamp="1631355675077">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="347" y="360" key="#SQL_Dialects/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620156990706" />
-    <state x="894" y="311" key="#Web_Browsers" timestamp="1620152224524">
+    <state width="1875" height="254" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1631355675077" />
+    <state width="1875" height="254" key="GridCell.Tab.0.center" timestamp="1631355675077">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="894" y="311" key="#Web_Browsers/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620152224524" />
-    <state x="780" y="296" width="1094" height="636" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1621235733505">
+    <state width="1875" height="254" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1631355675077" />
+    <state width="1875" height="254" key="GridCell.Tab.0.left" timestamp="1631355675077">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="780" y="296" width="1094" height="636" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1621235733505" />
-    <state width="424" height="466" key="DebuggerActiveHint" timestamp="1620213286279">
+    <state width="1875" height="254" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1631355675077" />
+    <state width="1875" height="254" key="GridCell.Tab.0.right" timestamp="1631355675077">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="424" height="466" key="DebuggerActiveHint/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620213286279" />
-    <state width="1875" height="254" key="GridCell.Tab.0.bottom" timestamp="1621340066594">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1875" height="251" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1620039248742" />
-    <state width="1875" height="527" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1621339638738" />
-    <state width="1875" height="254" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1621340066594" />
-    <state width="1875" height="254" key="GridCell.Tab.0.center" timestamp="1621340066594">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1875" height="251" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1620039248742" />
-    <state width="1875" height="527" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1621339638738" />
-    <state width="1875" height="254" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1621340066594" />
-    <state width="1875" height="254" key="GridCell.Tab.0.left" timestamp="1621340066594">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1875" height="251" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1620039248742" />
-    <state width="1875" height="527" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1621339638738" />
-    <state width="1875" height="254" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1621340066594" />
-    <state width="1875" height="254" key="GridCell.Tab.0.right" timestamp="1621340066594">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1875" height="251" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1620039248742" />
-    <state width="1875" height="527" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1621339638738" />
-    <state width="1875" height="254" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1621340066594" />
-    <state width="1875" height="374" key="GridCell.Tab.1.bottom" timestamp="1620218412966">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1875" height="374" key="GridCell.Tab.1.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620218412966" />
-    <state width="1875" height="374" key="GridCell.Tab.1.center" timestamp="1620218412966">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1875" height="374" key="GridCell.Tab.1.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620218412966" />
-    <state width="1875" height="374" key="GridCell.Tab.1.left" timestamp="1620218412966">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1875" height="374" key="GridCell.Tab.1.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620218412966" />
-    <state width="1875" height="374" key="GridCell.Tab.1.right" timestamp="1620218412966">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1875" height="374" key="GridCell.Tab.1.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620218412966" />
-    <state width="1875" height="374" key="GridCell.Tab.2.bottom" timestamp="1620218412966">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1875" height="374" key="GridCell.Tab.2.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620218412966" />
-    <state width="1875" height="374" key="GridCell.Tab.2.center" timestamp="1620218412966">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1875" height="374" key="GridCell.Tab.2.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620218412966" />
-    <state width="1875" height="374" key="GridCell.Tab.2.left" timestamp="1620218412966">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1875" height="374" key="GridCell.Tab.2.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620218412966" />
-    <state width="1875" height="374" key="GridCell.Tab.2.right" timestamp="1620218412966">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1875" height="374" key="GridCell.Tab.2.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620218412966" />
-    <state width="1875" height="374" key="GridCell.Tab.3.bottom" timestamp="1620218412966">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1875" height="374" key="GridCell.Tab.3.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620218412966" />
-    <state width="1875" height="374" key="GridCell.Tab.3.center" timestamp="1620218412966">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1875" height="374" key="GridCell.Tab.3.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620218412966" />
-    <state width="1875" height="374" key="GridCell.Tab.3.left" timestamp="1620218412966">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1875" height="374" key="GridCell.Tab.3.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620218412966" />
-    <state width="1875" height="374" key="GridCell.Tab.3.right" timestamp="1620218412966">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1875" height="374" key="GridCell.Tab.3.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620218412966" />
-    <state width="1875" height="374" key="GridCell.Tab.4.bottom" timestamp="1620218412966">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1875" height="374" key="GridCell.Tab.4.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620218412966" />
-    <state width="1875" height="374" key="GridCell.Tab.4.center" timestamp="1620218412966">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1875" height="374" key="GridCell.Tab.4.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620218412966" />
-    <state width="1875" height="374" key="GridCell.Tab.4.left" timestamp="1620218412966">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1875" height="374" key="GridCell.Tab.4.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620218412966" />
-    <state width="1875" height="374" key="GridCell.Tab.4.right" timestamp="1620218412966">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1875" height="374" key="GridCell.Tab.4.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620218412966" />
-    <state width="274" height="463" key="HiddenNamespacesPopup" timestamp="1619437438868">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="274" height="463" key="HiddenNamespacesPopup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1619437438868" />
-    <state x="669" y="196" key="RiderGenerateDialog" timestamp="1620210512673">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="669" y="196" key="RiderGenerateDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620210512673" />
-    <state x="551" y="252" key="Vcs.Push.Dialog.v2" timestamp="1620312702369">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="551" y="252" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620312702369" />
-    <state width="968" height="528" key="XDebugger.FullValuePopup" timestamp="1619441930084">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="968" height="528" key="XDebugger.FullValuePopup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1619441930084" />
-    <state x="824" y="209" width="318" height="421" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1620139041301">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="824" y="209" width="318" height="421" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620139041301" />
-    <state x="755" y="339" width="410" height="349" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog" timestamp="1620132899610">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="755" y="339" width="410" height="349" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620132899610" />
-    <state x="817" y="66" width="663" height="612" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1620155458170">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="817" y="66" width="663" height="612" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620155458170" />
-    <state x="760" y="425" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1619005255554">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="760" y="425" key="git4idea.remote.GitConfigureRemotesDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1619005255554" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1620805791707">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620805791707" />
+    <state width="1875" height="254" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1631355675077" />
   </component>
 </project>

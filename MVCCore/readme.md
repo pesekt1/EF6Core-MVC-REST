@@ -1,6 +1,6 @@
 ﻿# MVC Core project:
 
-## CRUD application with SQL Server
+## CRUD application with SQL Server - using Entity Framework6
 
 ### SQL Server database:
 - connection string in appsettings.json:
@@ -182,8 +182,8 @@ Run something like this in your Package Manager Console in Visual Studio:
 ```
 
 ### Swagger (API documentation)
-- Swagger json endpoint: <localhost:5001/swagger/v1/swagger.json>
-- Swagger UI: <localhost:5001/swagger>
+- Swagger json endpoint: <localhost:5558/swagger/v1/swagger.json>
+- Swagger UI: <localhost:5558/swagger>
 
 ![swagger](img/swagger.png)
 
